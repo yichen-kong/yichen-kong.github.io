@@ -44,9 +44,4 @@ sections:
     content:
       title: '技能与认证 | Skills & Certifications'
       username: me
-
-  - block: accomplishments
-    content:
-      title: '荣誉与奖项 | Awards & Honors'
-      username: me
 ---
