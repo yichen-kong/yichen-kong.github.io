@@ -9,11 +9,6 @@ name:
   alternate: ''  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
   pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
-status:
-  icon: "☕"
 role: 高中生 | High school student
 bio: |
   Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
