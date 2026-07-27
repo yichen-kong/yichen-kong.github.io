@@ -1,135 +1,151 @@
-
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
+
 name:
   display: 孔一宸 | Yichen Kong
-  given: 一宸
-  family: 孔
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  given: 一宸 | Yichen
+  family: 孔 | Kong
+  alternate: ''
+  pronunciation: ''
   pronouns: him
-role: 高中生 | High school student
-bio: |
- 本人长期热爱科研学习与工程应用，最新的独立研究成果建立在全球大
- 气科学深化的背景下，传统一次性探空仪带来的海洋环境污染、数据传
- 输受限及高昂的业务成本已成为行业瓶颈。作为一名高中学生，我致力
- 于通过技术创新，将新型变体飞行器技术、远距离低功率通信技术、非
- 线性全耦合控制算法、MBD 开发自主返航算法、新型材料与生产工艺跨
- 学科融合，开发具备强可靠性、高精度、低成本、低生物威胁且环境友
- 好的“智能自主控制可回收探空系统”，为全球高空探测与大气研究贡献
- 新型解决方案。 | Driven by a sustained passion for scientific 
- research and engineering practice, my most recent independent 
- research addresses a pressing bottleneck in global atmospheric 
- science, as atmospheric research deepens worldwide, the 
- environmental pollution caused by conventional single-use 
- radiosondes, together with their limited data transmission 
- range and high operational costs, has become a critical 
- constraint on the field. As a high school student, I have 
- dedicated myself to technological innovation, integrating 
- novel variant-configuration aircraft design, long-range 
- low-power communication, nonlinear fully-coupled control 
- algorithms, model-based development (MBD) for autonomous 
- return-flight algorithms, and advances in materials and 
- manufacturing processes across disciplines. Through this 
- interdisciplinary synthesis, I have developed an "Intelligent 
- Autonomous Recoverable Sounding System" characterized by strong 
- reliability, high precision, low cost, minimal biological hazard, 
- and environmental sustainability—offering a new solution for 
- high-altitude sounding and atmospheric research worldwide.
 
+role: 高中生 | High School Student
+
+bio: |
+  本人长期热爱科研学习与工程应用，最新的独立研究成果建立在全球大气科学深化的背景下，传统一次性探空仪带来的海洋环境污染、数据传输受限及高昂的业务成本已成为行业瓶颈。作为一名高中学生，我致力于通过技术创新，将新型变体飞行器技术、远距离低功率通信技术、非线性全耦合控制算法、MBD 开发自主返航算法、新型材料与生产工艺跨学科融合，开发具备强可靠性、高精度、低成本、低生物威胁且环境友好的“智能自主控制可回收探空系统”，为全球高空探测与大气研究贡献新型解决方案。
+  
+  Driven by a sustained passion for scientific research and engineering practice, my most recent independent research addresses a pressing bottleneck in global atmospheric science: as atmospheric research deepens worldwide, the environmental pollution caused by conventional single-use radiosondes, together with their limited data transmission range and high operational costs, has become a critical constraint on the field. As a high school student, I have dedicated myself to technological innovation, integrating novel variant-configuration aircraft design, long-range low-power communication, nonlinear fully-coupled control algorithms, model-based development (MBD) for autonomous return-flight algorithms, and advances in materials and manufacturing processes across disciplines. Through this interdisciplinary synthesis, I have developed an "Intelligent Autonomous Recoverable Sounding System" characterized by strong reliability, high precision, low cost, minimal biological hazard, and environmental sustainability — offering a new solution for high-altitude sounding and atmospheric research worldwide.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: 高中在读（请填写真实学校名称）| High School Student
 
 links:
-  - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
+  - icon: hero/phone
+    url: 'tel:+8613997320897'
+    label: '+86 13997320897'
+  - icon: hero/envelope
+    url: 'mailto:13997320897@163.com'
+    label: '163 Email'
+  - icon: hero/envelope
+    url: 'mailto:kyc13997320897@gmail.com'
+    label: 'Gmail'
+  - icon: brands/weixin
+    url: '#'
+    label: 'WeChat: 13997320897'
   - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: 'https://github.com/yichen-kong'
+    label: 'GitHub'
+  - icon: brands/bilibili
+    url: 'https://space.bilibili.com/604998653'
+    label: 'Bilibili'
+  - icon: hero/signal
+    url: '#'
+    label: '无线电呼号 (Call Sign): BG9S0E'
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
-
-education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+  - 空天科技 | Aerospace Technology
+  - 飞行器气动与结构设计 | Aircraft Aerodynamics & Structural Design
+  - 自动化算法开发（MBD / 非线性控制）| Automation Algorithm Development (MBD / Nonlinear Control)
+  - 高空气象探测 | High-Altitude Atmospheric Sounding
+  - 无线电通信（RF / SDR）| Radio Communications (RF / SDR)
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: 项目发起人 / 唯一发明人 | Project Founder / Sole Inventor
+    org: 智能自主控制可回收探空系统（独立研究项目）| Intelligent Autonomous Recoverable Sounding System (Independent Research Project)
+    start: '2024-10-01'
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
+      系统由通信链路、飞行器（含探空装置）、地面站及业务计算终端等多部分构成，通过标准 750g 高空气球搭载升空，飞行器在约 30000 米高空与气球分离后，以可变斜翼无动力滑翔实现远程精确回收。设计“变斜翼融合弹翼”气动布局，实现无操控面下的高效姿态调节；采用 Solidworks 参数化建模及 Xflow、Xflr5、ANSYS-Fluent/Star CCM 多尺度 CFD 仿真；自主设计车规级六层高频 PCB；基于 MAVlink 协议开发地面站及内嵌 ISA 大气模型的业务计算终端；采用 CNC 加工 PMI 泡沫、FDM 打印 HT-PLA-GF、MJF 打印 PA11 等极端环境制造工艺；基于 MBD 方法开发非线性全耦合飞控算法，应用自整定 PID 与总能量管理策略实现稳定自主返航；自研特高频 LoRa CSS 射频链路结合 12 单元八木天线，实现低功率超远程双向通信。
+      
+      The system integrates a communications link, a flight vehicle (including the sounding payload), a ground station, and an operational computing terminal. Launched via a standard 750g high-altitude balloon, the vehicle separates from the balloon at approximately 30,000m and executes precise long-range recovery through unpowered gliding with a variable-sweep wing. Key contributions include: a novel "morphing swept wing + missile fin" aerodynamic configuration enabling efficient attitude control without conventional control surfaces; parametric modeling in SolidWorks with multi-scale CFD validation (XFlow, XFLR5, ANSYS-Fluent, STAR-CCM+); an automotive-grade six-layer high-frequency PCB; a custom MAVLink-based ground station and web terminal embedding ISA atmospheric models; extreme-environment manufacturing using CNC-machined PMI foam, FDM-printed HT-PLA-GF, and MJF-printed PA11 nylon; a nonlinear fully-coupled flight control system developed via Model-Based Design (MBD), employing auto-tuning PID and Total Energy Control System (TECS) strategies for stable autonomous return glide; and a custom UHF LoRa CSS RF link with a 12-element Yagi antenna enabling low-power, long-range bidirectional communication.
     button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      text: 查看专利申请 | View Patent Application
+      url: '#'
+      icon: hero/document-text
+
+  - role: 唯一试飞负责人 | Sole Flight Test Director
+    org: 沱沱河国家高空气象观测站与三江源 | Tuotuo River National High-Altitude Meteorological Station & Sanjiangyuan
+    start: '2026-07-19'
+    end: '2026-07-22'
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      在沱沱河（海拔 4534.5 米，高寒、低压、强湍流环境）开展系统实测，验证装置在恶劣环境下的性能与稳定性。已联系中国科学院空天信息创新研究院、中国科学院大气物理研究所、格尔木市气象局、西宁市国家高空气象观测站、沱沱河国家高空气象观测站等单位审批空域，分别完成无人机低空搭载测试与 30000 米高空气球测试，验证了系统大部分功能。本人作为唯一试飞负责人，全程遵守国家相关法律法规与标准。
+      
+      Conducted field tests of the system at the Tuotuo River station (4,534m altitude; extreme cold, low pressure, and strong turbulence) to validate performance and reliability under harsh environmental conditions. Secured airspace approvals from the Aerospace Information Research Institute (CAS), the Institute of Atmospheric Physics (CAS), the Golmud Meteorological Bureau, the Xining National High-Altitude Meteorological Station, and the Tuotuo River National High-Altitude Meteorological Station. Completed both a drone-assisted low-altitude payload test and a 30,000m high-altitude balloon test, validating the majority of system functions. Served as the sole flight test director throughout, in strict compliance with relevant national laws and standards.
 
 skills:
-  - name: Technical Skills
+  - name: 工程设计与制造 | Engineering Design & Manufacturing
     items:
-      - label: Python
+      - label: 参数化建模与 CFD 仿真 | Parametric Modeling & CFD Simulation
         level: 5
-      - label: Machine Learning
+      - label: 六层高频 PCB 设计 | 6-Layer High-Frequency PCB Design
+        level: 4
+      - label: 射频通信与 SDR 无线电 | RF Communications & SDR
+        level: 4
+      - label: STM32 嵌入式架构 | STM32 Embedded Architecture
+        level: 4
+      - label: MBD 自动化算法开发 | MBD Algorithm Development
         level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
+      - label: 前端开发 | Front-End Development
+        level: 3
 
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
+  - name: 认证与执照 | Certifications & Licenses
+    items:
+      - label: 业余无线电台操作技术能力验证证书（编号 A6300000049）| Amateur Radio Operator Certificate (No. A6300000049)
+        level: 5
+      - label: 跨省跨国无线电台执照（审批中）| Cross-Provincial/International Radio Station License (in process)
+        level: 3
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: 国家发明专利（唯一发明人）| National Invention Patent (Sole Inventor)
+    awarder: 国家知识产权局 | China National Intellectual Property Administration (CNIPA)
+    date: '2026-01-01'
+    summary: |
+      专利申请号 202610625965.2，已通过初步审查，目前进入实质审查阶段。
+      
+      Application No. 202610625965.2. Passed preliminary examination by CNIPA and is currently under substantive examination.
+    icon: hero/light-bulb
+
+  - title: 全国青少年科技创新大赛（连续两年入围）| National Youth Science and Technology Innovation Competition (Two-Time Finalist)
+    awarder: 全国青少年科技创新大赛组委会 | National Youth S&T Innovation Competition Committee
+    date: '2026-01-01'
+    summary: |
+      连续两年入围全国青少年科技创新大赛。
+      
+      Selected as a national finalist for two consecutive years.
     icon: hero/trophy
+
+  - title: 青海省青少年科技创新大赛一等奖（连续两年）| Qinghai Youth Science and Technology Innovation Competition — First Prize (Two Consecutive Years)
+    awarder: 青海省青少年科技创新大赛组委会 | Qinghai Youth S&T Innovation Competition Committee
+    date: '2026-01-01'
+    summary: |
+      连续两年获得青海省青少年科技创新大赛一等奖。本研究项目的一切研究设计均由本人独立完成。
+      
+      Awarded First Prize at the Qinghai Youth S&T Innovation Competition for two consecutive years. All aerodynamic designs, control algorithms, and system assembly were completed independently.
+    icon: hero/trophy
+
+  - title: 无线电收发设备 CMA 检测认证 | CMA-Certified Radio Transceiver
+    awarder: 青海省无线电检测站 | Qinghai Radio Testing Station
+    date: '2026-01-01'
+    summary: |
+      自主设计的无线电收发设备通过 CMA 检测。
+      
+      Self-designed radio transceiver equipment passed CMA-certified testing.
+    icon: hero/check-badge
+
+  - title: 探空业务计算终端实测验证 | Empirical Field Validation of Sounding Terminal
+    awarder: 独立研究项目 | Independent Research Project
+    date: '2026-01-01'
+    summary: |
+      自主设计的探空业务计算终端通过实际验证测试。
+      
+      Custom-designed sounding calculation terminal passed operational field testing.
+    icon: hero/check-badge
+
+  - title: 专家认可与支持 | Expert Endorsement and Support
+    awarder: 多位学术与行业专家 | Multiple Academic and Industry Experts
+    date: '2026-01-01'
+    summary: |
+      获得中国科学院空天信息创新研究院高级工程师黄宛宁、中国科学院大学岗位教授卞建春、中国科学院大气物理研究所高级工程师白志宣、华南理工大学未来技术学院教授张东、青海 NOI 特派员及青海大学计算机科学与技术学院副教授杜正君、西宁市国家高空气象观测站站长郭航等专家的认可与支持。
+      
+      Received technical validation and support from Senior Engineer Wanning Huang (Aerospace Information Research Institute, CAS), Prof. Jianchun Bian (UCAS), Senior Engineer Zhixuan Bai (Institute of Atmospheric Physics, CAS), Prof. Dong Zhang (South China University of Technology), Assoc. Prof. Zhengjun Du (Qinghai University), and Director Hang Guo (Xining National High-Altitude Meteorological Station).
+    icon: hero/academic-cap
