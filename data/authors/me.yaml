@@ -12,40 +12,31 @@ name:
 
 role: 17岁 · 高中生 | 17-year-old High School Student
 
-bio: |
-  本人长期热爱科研学习与工程应用，最新的独立研究成果建立在全球大气科学深化的背景下，传统一次性探空仪带来的海洋环境污染、数据传输受限及高昂的业务成本已成为行业瓶颈。作为一名17岁的高中学生，我致力于通过技术创新，将新型变体飞行器技术、远距离低功率通信技术、非线性全耦合控制算法、MBD 开发自主返航算法、新型材料与生产工艺跨学科融合，开发具备强可靠性、高精度、低成本、低生物威胁且环境友好的“智能自主控制可回收探空系统”，为全球高空探测与大气研究贡献新型解决方案。
-  
-  Driven by a sustained passion for scientific research and engineering practice, my most recent independent research addresses a pressing bottleneck in global atmospheric science: as atmospheric research deepens worldwide, the environmental pollution caused by conventional single-use radiosondes, together with their limited data transmission range and high operational costs, has become a critical constraint on the field. As a 17-year-old high school student, I have dedicated myself to technological innovation, integrating novel variant-configuration aircraft design, long-range low-power communication, nonlinear fully-coupled control algorithms, model-based development (MBD) for autonomous return-flight algorithms, and advances in materials and manufacturing processes across disciplines. Through this interdisciplinary synthesis, I have developed an "Intelligent Autonomous Recoverable Sounding System" characterized by strong reliability, high precision, low cost, minimal biological hazard, and environmental sustainability — offering a new solution for high-altitude sounding and atmospheric research worldwide.
+bio: 本人长期热爱科研学习与工程应用，开发具备强可靠性、高精度、低成本、低生物威胁且环境友好的“智能自主控制可回收探空系统”，为全球高空探测与大气研究贡献新型解决方案。
 
 affiliations:
   - name: 西宁市第二中学 (中国青海省西宁市) | Xining No. 2 Middle School (Xining, Qinghai, China)
 
 links:
-  - icon: hero/document-arrow-down
-    url: /uploads/resume.pdf
-    label: '中文简历 (CV)'
-  - icon: hero/document-arrow-down
-    url: /uploads/resume_en.pdf
-    label: 'English Resume'
-  - icon: hero/phone
+  - icon: fas/phone
     url: 'tel:+8613997320897'
     label: '+86 13997320897'
-  - icon: hero/envelope
+  - icon: fas/envelope
     url: 'mailto:13997320897@163.com'
     label: '163 Email'
-  - icon: brands/google
+  - icon: fab/google
     url: 'mailto:kyc13997320897@gmail.com'
     label: 'Gmail'
-  - icon: brands/weixin
+  - icon: fab/weixin
     url: '#'
     label: 'WeChat: 13997320897'
-  - icon: brands/github
+  - icon: fab/github
     url: 'https://github.com/yichen-kong'
     label: 'GitHub'
-  - icon: brands/bilibili
+  - icon: fab/bilibili
     url: 'https://space.bilibili.com/604998653'
     label: 'Bilibili'
-  - icon: hero/signal
+  - icon: fas/satellite-dish
     url: '#'
     label: '无线电呼号: BG9S0E'
 
@@ -78,34 +69,26 @@ skills:
   - name: 工程设计与制造 | Engineering Design & Manufacturing
     items:
       - label: 参数化建模与 CFD 仿真 | Parametric Modeling & CFD Simulation
-        level: 5
-      - label: 六层高频 PCB 设计 | 6-Layer High-Frequency PCB Design
-        level: 4
+      - label: PCB
       - label: 射频通信与 SDR 无线电 | RF Communications & SDR
-        level: 4
       - label: STM32 嵌入式架构 | STM32 Embedded Architecture
-        level: 4
       - label: MBD 自动化算法开发 | MBD Algorithm Development
-        level: 5
       - label: 前端开发 | Front-End Development
-        level: 3
 
   - name: 认证与执照 | Certifications & Licenses
     items:
-      - label: 业余无线电台操作技术能力验证证书（编号 A6300000049）| Amateur Radio Operator Certificate (No. A6300000049)
-        level: 5
-      - label: 跨省跨国无线电台执照（审批中）| Cross-Provincial/International Radio Station License (in process)
-        level: 3
+      - label: 业余无线电台操作技术能力验证证书 | Amateur Radio Operator Certificate
+      - label: 跨省跨国无线电台执照 | Cross-Provincial/International Radio Station License
 
 awards:
   - title: 国家发明专利（唯一发明人）| National Invention Patent (Sole Inventor)
     awarder: 国家知识产权局 | China National Intellectual Property Administration (CNIPA)
     date: '2026-01-01'
     summary: |
-      专利申请号 202610625965.2，已通过初步审查，目前进入实质审查阶段。
+      目前进入实质审查阶段。
       
-      Application No. 202610625965.2. Passed preliminary examination by CNIPA and is currently under substantive examination.
-    icon: hero/light-bulb
+      Currently under substantive examination.
+    icon: fas/lightbulb
 
   - title: 全国青少年科技创新大赛（连续两年入围）| National Youth Science and Technology Innovation Competition (Two-Time Finalist)
     awarder: 全国青少年科技创新大赛组委会 | National Youth S&T Innovation Competition Committee
@@ -114,7 +97,7 @@ awards:
       连续两年入围全国青少年科技创新大赛。
       
       Selected as a national finalist for two consecutive years.
-    icon: hero/trophy
+    icon: fas/trophy
 
   - title: 青海省青少年科技创新大赛一等奖（连续两年）| Qinghai Youth Science and Technology Innovation Competition — First Prize (Two Consecutive Years)
     awarder: 青海省青少年科技创新大赛组委会 | Qinghai Youth S&T Innovation Competition Committee
@@ -123,7 +106,7 @@ awards:
       连续两年获得青海省青少年科技创新大赛一等奖。本研究项目的一切研究设计均由本人独立完成。
       
       Awarded First Prize at the Qinghai Youth S&T Innovation Competition for two consecutive years. All aerodynamic designs, control algorithms, and system assembly were completed independently.
-    icon: hero/trophy
+    icon: fas/trophy
 
   - title: 无线电收发设备 CMA 检测认证 | CMA-Certified Radio Transceiver
     awarder: 青海省无线电检测站 | Qinghai Radio Testing Station
@@ -132,7 +115,7 @@ awards:
       自主设计的无线电收发设备通过 CMA 检测。
       
       Self-designed radio transceiver equipment passed CMA-certified testing.
-    icon: hero/check-badge
+    icon: fas/check-circle
 
   - title: 探空业务计算终端实测验证 | Empirical Field Validation of Sounding Terminal
     awarder: 独立研究项目 | Independent Research Project
@@ -141,7 +124,7 @@ awards:
       自主设计的探空业务计算终端通过实际验证测试。
       
       Custom-designed sounding calculation terminal passed operational field testing.
-    icon: hero/check-badge
+    icon: fas/check-circle
 
   - title: 专家认可与支持 | Expert Endorsement and Support
     awarder: 多位学术与行业专家 | Multiple Academic and Industry Experts
@@ -150,4 +133,4 @@ awards:
       获得中国科学院空天信息创新研究院高级工程师黄宛宁、中国科学院大学岗位教授卞建春、中国科学院大气物理研究所高级工程师白志宣、华南理工大学未来技术学院教授张东、青海 NOI 特派员及青海大学计算机科学与技术学院副教授杜正君、西宁市国家高空气象观测站站长郭航等专家的认可与支持。
       
       Received technical validation and support from Senior Engineer Wanning Huang (Aerospace Information Research Institute, CAS), Prof. Jianchun Bian (UCAS), Senior Engineer Zhixuan Bai (Institute of Atmospheric Physics, CAS), Prof. Dong Zhang (South China University of Technology), Assoc. Prof. Zhengjun Du (Qinghai University), and Director Hang Guo (Xining National High-Altitude Meteorological Station).
-    icon: hero/academic-cap
+    icon: fas/graduation-cap
