@@ -20,11 +20,11 @@ sections:
           <a href="uploads/resume_en.pdf" target="_blank" style="display: inline-block; padding: 12px 24px; margin-bottom: 10px; background-color: #2563eb; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">📄 Download English CV</a>
         </div>
         
-        ![真实个人照片](uploads/photo.jpg)
+        ![个人照片](uploads/photo.jpg)
         
         <br><br>
         
-        ### 🚀 项目概览视频 | Project Overview
+        ### 项目概览视频 | Project Overview
         <video controls style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           <source src="uploads/video.mp4" type="video/mp4">
           您的浏览器不支持视频播放。
