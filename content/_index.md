@@ -24,12 +24,7 @@ sections:
         
         <br><br>
         
-        ### 项目概览视频 | Project Overview
-        <video controls style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-          <source src="uploads/video.mp4" type="video/mp4">
-          您的浏览器不支持视频播放。
-        </video>
-      headings:
+
         about: ''
         education: ''
         interests: ''
