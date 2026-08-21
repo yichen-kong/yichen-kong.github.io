@@ -5,7 +5,19 @@
 
 main:
 
+  - name: Home
+    url: /
+    weight: 10
+
+  - name: Projects
+    url: projects/
+    weight: 20
+
   - name: Experience
     url: experience/
-    weight: 20
+    weight: 30
+
+  - name: Publications
+    url: publications/
+    weight: 40
 

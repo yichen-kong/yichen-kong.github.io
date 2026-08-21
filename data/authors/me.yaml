@@ -10,12 +10,14 @@ name:
   pronunciation: ''
   pronouns: 他 | him
 
-role: 17岁 · 高中生 | 17-year-old High School Student
+role: 独立研究者 · 发明人 · 17岁高中生 | Independent Researcher · Inventor · 17-year-old High School Student
 
-bio: 本人长期热爱科研学习与工程应用，开发具备强可靠性、高精度、低成本、低生物威胁且环境友好的“智能自主控制可回收探空系统”，为全球高空探测与大气研究贡献新型解决方案。
+bio: 本人长期热爱科研学习与工程应用，独立研发"智能自主控制可回收探空系统"，融合变体飞行器技术、远距离低功率通信、非线性全耦合控制算法与新型制造工艺，为全球高空探测与大气研究贡献强可靠性、高精度、低成本、环境友好的新型解决方案。
 
 affiliations:
   - name: 西宁市第二中学 (中国青海省西宁市) | Xining No. 2 Middle School (Xining, Qinghai, China)
+  - name: 沱沱河国家高空气象观测站（合作试飞）| Tuotuo River National High-Altitude Meteorological Station (Flight Test Collaboration)
+  - name: 中国科学院空天信息创新研究院（空域审批合作）| Aerospace Information Research Institute, CAS (Airspace Approval Collaboration)
 
 links:
   - icon: hero/phone
@@ -87,3 +89,17 @@ skills:
     items:
       - label: 业余无线电台操作技术能力验证证书 | Amateur Radio Operator Certificate
       - label: 跨省跨国无线电台执照 | Cross-Provincial/International Radio Station License
+
+awards:
+  - title: 国家发明专利（实质审查中）| National Invention Patent (Under Substantive Examination)
+    date: '2026-01-01'
+    summary: |
+      独立研发的"智能自主控制可回收探空系统"及相关核心技术，已正式提交国家发明专利申请，目前正在实质审查阶段。
+      
+      The independently developed "Intelligent Autonomous Recoverable Sounding System" and related core technologies have been officially submitted for a National Invention Patent and are currently under substantive examination.
+
+languages:
+  - name: 中文 | Chinese
+    level: 母语 | Native
+  - name: 英语 | English
+    level: 学术读写 | Academic Reading & Writing

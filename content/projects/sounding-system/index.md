@@ -16,7 +16,7 @@ tags:
 
 ## 项目视频 | Project Video
 
-<video controls preload="metadata" style="width:100%; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+<video controls preload="metadata" class="project-video">
   <source src="/uploads/project-video.mp4" type="video/mp4">
   您的浏览器不支持 HTML5 视频播放，请 <a href="/uploads/project-video.mp4" target="_blank">点击下载视频</a>。
 </video>
@@ -28,8 +28,8 @@ tags:
 
 本项目的完整研究报告（V4.1）已整理为 PDF 文档，包含系统设计、气动布局、控制算法、通信链路、制造工艺与实地测试等全部技术细节。
 
-<div style="margin-top: 20px; margin-bottom: 20px;">
-  <a href="/uploads/research-report.pdf" target="_blank" style="display: inline-block; padding: 12px 24px; background-color: #2563eb; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">📄 下载研究报告 V4.1 (PDF)</a>
+<div class="btn-group">
+  <a href="/uploads/research-report.pdf" target="_blank" class="btn-outline">下载研究报告 V4.1 | Research Report (PDF)</a>
 </div>
 
 ## 项目简介 | About the Project

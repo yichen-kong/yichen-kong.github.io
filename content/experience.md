@@ -1,5 +1,5 @@
 ---
-title: 'Experience'
+title: 'Experience | 经历'
 date: 2023-10-24
 type: landing
 
@@ -20,14 +20,14 @@ sections:
       is_education_first: false
   - block: resume-skills
     content:
-      title: Skills & Hobbies
+      title: '技能与认证 | Skills & Certifications'
       username: me
   - block: resume-awards
     content:
-      title: Awards
+      title: '奖项与专利 | Awards & Patents'
       username: me
   - block: resume-languages
     content:
-      title: Languages
+      title: '语言 | Languages'
       username: me
 ---

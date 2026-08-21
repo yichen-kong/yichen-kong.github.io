@@ -1,0 +1,6 @@
+{{/* 加载 NASA/SpaceX 风格自定义样式 */}}
+{{ $customCSS := resources.Get "css/custom.css" }}
+{{ if $customCSS }}
+  {{ $customCSS = $customCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $customCSS.RelPermalink }}" integrity="{{ $customCSS.Data.Integrity }}" crossorigin="anonymous">
+{{ end }}
