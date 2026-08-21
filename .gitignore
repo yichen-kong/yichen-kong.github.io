@@ -1,25 +1,13 @@
 # ============================================================================
-# Hugo Site .gitignore
+# Static Site .gitignore
 # ============================================================================
 
 # ============================================================================
-# Hugo Build Artifacts
+# Build Artifacts
 # ============================================================================
 
-# Generated site output
+# Generated site output (GitHub Actions assembles ./public)
 public/
-
-# Hugo resources (processed assets)
-resources/
-
-# Hugo build lock
-.hugo_build.lock
-
-# Hugo stats
-hugo_stats.json
-
-# Auto-generated JS config
-**/assets/jsconfig.json
 
 # ============================================================================
 # Node.js & Package Managers
@@ -36,14 +24,6 @@ node_modules/
 .env
 .env.local
 .env.*.local
-
-# ============================================================================
-# Generated Content
-# ============================================================================
-
-# Pagefind search index
-pagefind/
-static/pagefind/
 
 # ============================================================================
 # Operating System
@@ -70,12 +50,12 @@ npm-debug.log*
 
 # ============================================================================
 # Large Source Media Files (exceed GitHub 100MB limit)
-# Keep only compressed versions in static/uploads/
+# Keep only compressed versions in assets/
 # ============================================================================
 
 # Original large video (358MB) - exceeds GitHub's 100MB file limit
 /video.mp4
 /video_compressed.mp4
 
-# Original research report source (keep PDF in static/uploads/)
+# Original research report source (keep PDF in assets/pdf/)
 /V4.1.pdf
