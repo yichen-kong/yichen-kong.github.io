@@ -67,3 +67,15 @@ Desktop.ini
 
 *.log
 npm-debug.log*
+
+# ============================================================================
+# Large Source Media Files (exceed GitHub 100MB limit)
+# Keep only compressed versions in static/uploads/
+# ============================================================================
+
+# Original large video (358MB) - exceeds GitHub's 100MB file limit
+/video.mp4
+/video_compressed.mp4
+
+# Original research report source (keep PDF in static/uploads/)
+/V4.1.pdf

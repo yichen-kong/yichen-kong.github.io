@@ -24,6 +24,20 @@ sections:
         
         <br><br>
         
+        <h2 style="margin-top: 30px;">🎬 项目视频 | Project Video</h2>
+        
+        <video controls preload="metadata" style="width:100%; max-width:720px; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+          <source src="/uploads/project-video.mp4" type="video/mp4">
+          您的浏览器不支持 HTML5 视频播放，请 <a href="/uploads/project-video.mp4" target="_blank">点击下载视频</a>。
+        </video>
+        
+        <div style="margin-top: 20px; margin-bottom: 20px;">
+          <a href="/uploads/research-report.pdf" target="_blank" style="display: inline-block; padding: 12px 24px; margin-right: 15px; margin-bottom: 10px; background-color: #16a34a; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">📄 下载研究报告 V4.1 (Research Report)</a>
+          <a href="/projects/sounding-system/" target="_blank" style="display: inline-block; padding: 12px 24px; margin-bottom: 10px; background-color: #7c3aed; color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">🚀 查看项目详情 (Project Details)</a>
+        </div>
+        
+        <br><br>
+        
 
         about: ''
         education: ''
@@ -42,6 +56,21 @@ sections:
     content:
       title: '研究经历 | Projects & Experience'
       username: me
+      
+  - block: collection
+    content:
+      title: '🚀 精选项目 | Selected Projects'
+      text: '我的核心研究项目：智能自主控制可回收探空系统。'
+      filters:
+        folders:
+          - projects
+    design:
+      view: article-grid
+      fill_image: false
+      columns: 3
+      show_date: false
+      show_read_time: false
+      show_read_more: false
       
   - block: skills
     content:
