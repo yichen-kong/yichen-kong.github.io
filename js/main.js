@@ -33,12 +33,16 @@
       'about.meta.collab': '合作机构',
       'about.collab1': '沱沱河国家高空气象观测站',
       'about.collab2': '中国科学院空天信息创新研究院',
+      'about.photo.caption': '独立研究者 · 唯一发明人',
       'about.meta.interests': '研究领域',
       'about.interest1': '空天科技',
       'about.interest2': '飞行器气动与结构设计',
       'about.interest3': '自动化算法开发（MBD / 非线性控制）',
       'about.interest4': '高空气象探测',
       'about.interest5': '无线电通信（RF / SDR）',
+      'about.meta.languages': '语言能力',
+      'about.lang1': '中文（母语）',
+      'about.lang2': '英语（学术读写）',
       'stats.title': '关键数据',
       'stats.altitude': '高空测试高度',
       'stats.altitude-en': 'Flight Altitude',
@@ -139,12 +143,16 @@
       'about.meta.collab': 'Collaboration',
       'about.collab1': 'Tuotuo River National High-Altitude Meteorological Station',
       'about.collab2': 'Aerospace Information Research Institute, CAS',
+      'about.photo.caption': 'Independent Researcher · Sole Inventor',
       'about.meta.interests': 'Research Interests',
       'about.interest1': 'Aerospace Technology',
       'about.interest2': 'Aircraft Aerodynamics & Structural Design',
       'about.interest3': 'Automation Algorithm Development (MBD / Nonlinear Control)',
       'about.interest4': 'High-Altitude Atmospheric Sounding',
       'about.interest5': 'Radio Communications (RF / SDR)',
+      'about.meta.languages': 'Languages',
+      'about.lang1': 'Chinese (Native)',
+      'about.lang2': 'English (Academic Reading & Writing)',
       'stats.title': 'Key Metrics',
       'stats.altitude': 'Flight Altitude',
       'stats.altitude-en': '高空测试高度',
@@ -426,4 +434,22 @@
       sectionObserver.observe(section);
     });
   }
+
+  /* ── 返回顶部按钮 ───────────────────────────────────────────────────── */
+  const backToTop = document.getElementById('backToTop');
+
+  function onScrollBackToTop() {
+    if (window.scrollY > 600) {
+      backToTop.classList.add('visible');
+    } else {
+      backToTop.classList.remove('visible');
+    }
+  }
+
+  window.addEventListener('scroll', onScrollBackToTop, { passive: true });
+  onScrollBackToTop();
+
+  backToTop.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
 })();
