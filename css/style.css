@@ -478,3 +478,138 @@ html[data-lang="en"] .lang-switch-en { color: var(--accent); }
   .hero-actions { flex-direction: column; align-items: center; }
   .flight-header { flex-direction: column; gap: 4px; }
 }
+/* ========================================================================== 
+   2026 refinement: dark / blue academic technology portfolio
+   Layout-only pass: content, links and assets remain unchanged.
+   ========================================================================== */
+:root {
+  --bg: #070b12;
+  --bg-alt: #0b111c;
+  --surface: rgba(15, 24, 38, .78);
+  --surface-hover: rgba(21, 39, 62, .92);
+  --border: rgba(113, 157, 207, .18);
+  --border-light: rgba(104, 186, 255, .42);
+  --text: #eef6ff;
+  --text-muted: #a5b8cc;
+  --text-dim: #657b93;
+  --accent: #58b8ff;
+  --accent-dim: #2d77ad;
+  --accent-glow: rgba(54, 163, 255, .12);
+  --radius: 8px;
+  --radius-lg: 14px;
+}
+
+body {
+  background:
+    radial-gradient(circle at 78% 8%, rgba(18, 85, 145, .15), transparent 28rem),
+    radial-gradient(circle at 10% 38%, rgba(10, 49, 93, .13), transparent 30rem),
+    var(--bg);
+  font-size: 15px;
+}
+body::before {
+  content: "";
+  position: fixed; inset: 0; pointer-events: none; z-index: -1;
+  opacity: .28;
+  background-image: linear-gradient(rgba(130,190,240,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(130,190,240,.035) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: linear-gradient(to bottom, black, transparent 85%);
+}
+
+.site-nav { padding: 18px 0; }
+.site-nav.scrolled { background: rgba(7, 11, 18, .82); border-bottom-color: var(--border); padding: 11px 0; }
+.nav-inner, .section-inner { max-width: 1180px; }
+.nav-brand { font-size: 18px; letter-spacing: .08em; }
+.nav-links { gap: 6px; }
+.nav-link { padding: 8px 14px; border-radius: 999px; font-size: 11px; letter-spacing: .08em; }
+.nav-link:hover, .nav-link.active { color: var(--accent); background: var(--accent-glow); }
+.lang-switch { border-radius: 999px; padding: 5px 11px; }
+
+.hero {
+  min-height: 94vh; justify-content: flex-start; padding: 150px 28px 100px;
+  background: linear-gradient(100deg, transparent 0 49%, rgba(13, 31, 51, .22) 100%);
+}
+.hero::after {
+  content: "YK / RESEARCH PORTFOLIO";
+  position: absolute; right: 28px; bottom: 34px;
+  font: 10px var(--font-mono); letter-spacing: .2em; color: var(--text-dim);
+  writing-mode: vertical-rl; transform: rotate(180deg);
+}
+.hero-grid { background-size: 56px 56px; opacity: .75; mask-image: linear-gradient(90deg, black 0 55%, transparent 94%); }
+.hero-inner { max-width: 980px; width: 100%; text-align: left; margin: 0 auto; }
+.hero-eyebrow { color: var(--accent); font-size: 10px; letter-spacing: .28em; margin-bottom: 24px; }
+.hero-name { font-size: clamp(48px, 8vw, 92px); line-height: .98; max-width: 850px; margin-bottom: 24px; }
+.hero-name-zh { display: block; font-weight: 500; }
+.hero-name-en { display: block; margin-top: 12px; font-size: .39em; letter-spacing: .18em; color: var(--text-muted); font-weight: 400; text-transform: uppercase; }
+.hero-name-sep { display: none; }
+.hero-role { max-width: 720px; font-size: 15px; line-height: 1.9; color: var(--text-muted); margin-bottom: 10px; }
+.hero-tagline { color: var(--accent); font-size: 12px; letter-spacing: .11em; margin-bottom: 38px; }
+.hero-actions { justify-content: flex-start; }
+.btn { border-radius: 999px; padding: 11px 24px; }
+.btn-outline:first-child { background: var(--accent); color: #06101a; border-color: var(--accent); }
+.btn-outline:first-child:hover { background: #a4dcff; color: #06101a; }
+.btn-outline { border-color: var(--border-light); }
+.scroll-hint { left: calc(50% + 8px); bottom: 26px; }
+
+.section { padding: 126px 28px; }
+.section-alt { background: linear-gradient(180deg, rgba(11, 17, 28, .88), rgba(8, 13, 22, .94)); }
+.section-head { margin-bottom: 58px; gap: 18px; }
+.section-index { color: var(--accent); }
+.section-title { font-size: 22px; font-weight: 600; letter-spacing: .02em; }
+.section-line { background: linear-gradient(90deg, var(--border-light), transparent); }
+
+.profile-grid { grid-template-columns: 250px minmax(0, 1fr) 250px; gap: 58px; }
+.photo-frame { padding: 8px; border-color: var(--border-light); background: linear-gradient(145deg, rgba(25, 68, 105, .5), rgba(10, 17, 28, .8)); box-shadow: 0 18px 55px rgba(0,0,0,.28); }
+.profile-photo-img { filter: grayscale(12%) contrast(1.04); }
+.profile-text p, .project-summary p, .flight-body p, .endorsements-text p { font-size: 14px; line-height: 2; }
+.meta-card, .award-card, .tech-item, .contact-item { background: linear-gradient(145deg, rgba(18, 31, 48, .8), rgba(10, 16, 26, .8)); border-color: var(--border); border-radius: var(--radius); }
+.meta-card:hover, .award-card:hover, .tech-item:hover, .contact-item:hover { border-color: var(--border-light); transform: translateY(-2px); }
+.meta-card { padding: 18px; }
+
+.awards-block { margin-bottom: 64px; }
+.awards-block-title, .skill-group-title { color: var(--accent); letter-spacing: .05em; }
+.awards-grid { grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.award-card { min-height: 152px; padding: 20px; transition: transform var(--transition), border-color var(--transition), background var(--transition); }
+.award-icon { color: var(--accent); }
+.award-name { line-height: 1.55; }
+.achievement-list { background: transparent; border: 0; gap: 10px; }
+.achievement-item { border: 1px solid var(--border); border-radius: var(--radius); background: rgba(15, 25, 39, .56); }
+.achievement-item:hover { border-color: var(--border-light); }
+.award-photo-item { border-color: var(--border); border-radius: var(--radius); overflow: hidden; }
+
+.project-header { border-left: 2px solid var(--accent); padding-left: 18px; }
+.project-name { font-size: 24px; }
+.project-media { border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; box-shadow: 0 20px 70px rgba(0,0,0,.3); }
+.project-video { width: 100%; }
+.tech-grid { gap: 12px; }
+.tech-item { padding: 20px; transition: transform var(--transition), border-color var(--transition), background var(--transition); }
+.tech-index { color: var(--accent); }
+
+.flight-block { border: 1px solid var(--border); border-radius: var(--radius-lg); background: linear-gradient(135deg, rgba(17, 37, 58, .8), rgba(10, 17, 27, .7)); }
+.skills-grid { gap: 58px; }
+.skill-list li { border-bottom-color: var(--border); padding: 12px 14px; }
+.skill-list li:hover { background: var(--accent-glow); }
+.contact-grid { grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.contact-item { padding: 20px; }
+.site-footer { border-top-color: var(--border); background: #05090f; }
+.back-to-top { border-radius: 999px; background: rgba(8, 16, 26, .86); }
+
+@media (max-width: 900px) {
+  .profile-grid { grid-template-columns: 190px minmax(0, 1fr); gap: 32px; }
+  .profile-meta { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3, 1fr); }
+  .awards-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 640px) {
+  .hero { min-height: 88vh; padding: 125px 22px 90px; }
+  .hero::after { display: none; }
+  .hero-name { font-size: clamp(42px, 13vw, 64px); }
+  .hero-role { font-size: 13px; }
+  .section { padding: 84px 22px; }
+  .section-head { margin-bottom: 38px; }
+  .section-title { font-size: 19px; }
+  .profile-grid { grid-template-columns: 1fr; gap: 28px; }
+  .profile-photo { max-width: 230px; }
+  .profile-meta { grid-template-columns: 1fr; }
+  .awards-grid, .contact-grid { grid-template-columns: 1fr; }
+  .awards-photos-grid { grid-template-columns: repeat(2, 1fr); }
+  .skills-grid { grid-template-columns: 1fr; gap: 35px; }
+}
