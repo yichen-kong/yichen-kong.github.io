@@ -1,27 +1,18 @@
-name: Build
-
+﻿name: Build
 on:
-  # Standalone trigger for PR validation
   pull_request:
     branches: ['main']
-  # Reusable workflow trigger - called by deploy.yml
   workflow_call:
     outputs:
       artifact-id:
         description: 'The ID of the uploaded artifact'
         value: ${{ jobs.build.outputs.artifact-id }}
-  # Allow manual trigger for testing
   workflow_dispatch:
-
-# Read-only permissions for security
 permissions:
   contents: read
-
-# Prevent duplicate builds for the same PR
 concurrency:
   group: build-${{ github.head_ref || github.run_id }}
   cancel-in-progress: true
-
 jobs:
   build:
     if: github.repository_owner != 'HugoBlox'
@@ -32,16 +23,12 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v6
-
     - name: Assemble static site
       run: |
-        # Create a clean public directory containing only the static site files
         mkdir -p public
-        cp -r index.html css js assets public/
+        cp -r *.html css js assets public/
         echo "Static site assembled:"
-        ls -la public/
-        ls -la public/assets/
-
+        find public -maxdepth 2 -type f | sort
     - name: Upload artifact
       id: upload
       uses: actions/upload-pages-artifact@v4

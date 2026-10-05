@@ -1,0 +1,16 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" role="img" aria-labelledby="title desc">
+  <title id="title">Kong Yichen Lab</title><desc id="desc">Abstract airspace research logo</desc>
+  <defs>
+    <linearGradient id="blue" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#31bfff"/><stop offset="1" stop-color="#1747c7"/></linearGradient>
+    <linearGradient id="warm" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#ffbd18"/><stop offset="1" stop-color="#ff271e"/></linearGradient>
+  </defs>
+  <g transform="translate(6 18) skewX(-8)">
+    <path fill="#ff3328" d="M34 0h78l-13 38H20z"/><path fill="#ff6a20" d="M24 54h78L89 92H10z"/>
+    <path fill="url(#warm)" d="M14 108h78L79 146H0z"/><path fill="url(#blue)" d="M4 162h78L69 210H-10z"/>
+  </g>
+  <g fill="url(#blue)" transform="translate(165 32) skewX(-8)">
+    <path d="M0 35 42 0h170c44 0 66 16 57 48l-11 39c-6 22-25 34-63 34H93c-22 0-30 8-34 24l-3 14H0l10-37c7-26 27-39 68-39h104c12 0 18-4 20-12l4-13c2-8-3-12-17-12H49L0 79z"/>
+    <path d="M249 0h140c39 0 56 17 48 47l-22 93c-8 35-28 51-70 51h-77l-25 29h-67l48-60h103c11 0 16-5 19-16l16-66c3-12-2-17-16-17h-91z"/>
+    <path d="M78 134h93c13 0 19 5 16 16l-7 28c-3 11-10 16-23 16H54z"/>
+  </g>
+</svg>
