@@ -1,0 +1,2245 @@
+{
+  "schemaVersion": 1,
+  "releaseTag": "media-originals-20261007",
+  "originalBaseUrl": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007",
+  "groups": [
+    {
+      "id": "xining",
+      "title": {
+        "en": "Xining",
+        "zh": "西宁"
+      },
+      "region": {
+        "en": "Qinghai",
+        "zh": "青海"
+      },
+      "itemIds": [
+        "xining-01",
+        "xining-02",
+        "xining-panorama"
+      ]
+    },
+    {
+      "id": "eboliang",
+      "title": {
+        "en": "Eboliang",
+        "zh": "俄博梁"
+      },
+      "region": {
+        "en": "Qinghai",
+        "zh": "青海"
+      },
+      "itemIds": [
+        "eboliang-01",
+        "eboliang-02",
+        "eboliang-03",
+        "eboliang-04",
+        "eboliang-05",
+        "eboliang-06"
+      ]
+    },
+    {
+      "id": "water-yadan",
+      "title": {
+        "en": "Water Yadan",
+        "zh": "水上雅丹"
+      },
+      "region": {
+        "en": "Qinghai",
+        "zh": "青海"
+      },
+      "itemIds": [
+        "water-yadan-01",
+        "water-yadan-02",
+        "water-yadan-03"
+      ]
+    },
+    {
+      "id": "qarhan",
+      "title": {
+        "en": "Qarhan Salt Lake",
+        "zh": "察尔汗盐湖"
+      },
+      "region": {
+        "en": "Qinghai",
+        "zh": "青海"
+      },
+      "itemIds": [
+        "qarhan-01",
+        "qarhan-02"
+      ]
+    },
+    {
+      "id": "kunlun",
+      "title": {
+        "en": "Kunlun & Hoh Xil",
+        "zh": "昆仑与可可西里"
+      },
+      "region": {
+        "en": "Qinghai",
+        "zh": "青海"
+      },
+      "itemIds": [
+        "kunlun-mountains",
+        "kunlun-pass",
+        "kunlun-hoh-xil",
+        "kunlun-jade",
+        "kunlun-mineral"
+      ]
+    },
+    {
+      "id": "heidushan",
+      "title": {
+        "en": "Heidushan",
+        "zh": "黑独山"
+      },
+      "region": {
+        "en": "Qinghai",
+        "zh": "青海"
+      },
+      "itemIds": [
+        "heidushan-north",
+        "heidushan-east",
+        "heidushan-south"
+      ]
+    },
+    {
+      "id": "lenghu",
+      "title": {
+        "en": "Lenghu",
+        "zh": "冷湖"
+      },
+      "region": {
+        "en": "Qinghai",
+        "zh": "青海"
+      },
+      "itemIds": [
+        "lenghu-01",
+        "lenghu-02"
+      ]
+    },
+    {
+      "id": "energy",
+      "title": {
+        "en": "Energy site",
+        "zh": "能源基地"
+      },
+      "region": null,
+      "itemIds": [
+        "energy-01",
+        "energy-02"
+      ]
+    },
+    {
+      "id": "hexicorridor",
+      "title": {
+        "en": "Hexi Corridor",
+        "zh": "河西走廊"
+      },
+      "region": {
+        "en": "Gansu",
+        "zh": "甘肃"
+      },
+      "itemIds": [
+        "hexicorridor-dangjin",
+        "hexicorridor-guazhou",
+        "hexicorridor-dunhuang",
+        "hexicorridor-pingshan-01",
+        "hexicorridor-pingshan-02",
+        "hexicorridor-biandukou"
+      ]
+    },
+    {
+      "id": "tuotuohe",
+      "title": {
+        "en": "Tuotuo River",
+        "zh": "沱沱河"
+      },
+      "region": {
+        "en": "Qinghai",
+        "zh": "青海"
+      },
+      "itemIds": [
+        "tuotuohe-01",
+        "tuotuohe-02",
+        "tuotuohe-03",
+        "tuotuohe-04"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "xining-01",
+      "group": "xining",
+      "title": {
+        "en": "Xining · 1",
+        "zh": "西宁 · 1"
+      },
+      "caption": {
+        "en": "A view of Xining.",
+        "zh": "西宁城市景观。"
+      },
+      "width": 10560,
+      "height": 5940,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/xining-01.jpg",
+        "mime": "image/jpeg",
+        "bytes": 40788003,
+        "sha256": "f4677452a8c150ce93973ce4f3af11db9b34bd63093478769d736d0ce0d3a2e9",
+        "width": 10560,
+        "height": 5940
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/xining-01/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 78610,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/xining-01/1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 321024,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/xining-01/2400.webp",
+          "width": 2400,
+          "height": 1350,
+          "bytes": 981380,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/xining-01/1280.webp",
+      "thumbnail": "assets/gallery/xining-01/640.webp",
+      "srcset": "assets/gallery/xining-01/640.webp 640w, assets/gallery/xining-01/1280.webp 1280w, assets/gallery/xining-01/2400.webp 2400w"
+    },
+    {
+      "id": "xining-02",
+      "group": "xining",
+      "title": {
+        "en": "Xining · 2",
+        "zh": "西宁 · 2"
+      },
+      "caption": {
+        "en": "A view of Xining.",
+        "zh": "西宁城市景观。"
+      },
+      "width": 10560,
+      "height": 7912,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/xining-02.jpg",
+        "mime": "image/jpeg",
+        "bytes": 44524907,
+        "sha256": "5889589711bbf9050156cb77186007a24714b16084d5cbf8e702b2c4925f595d",
+        "width": 10560,
+        "height": 7912
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/xining-02/640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 100564,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/xining-02/1280.webp",
+          "width": 1280,
+          "height": 959,
+          "bytes": 389938,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/xining-02/2400.webp",
+          "width": 2400,
+          "height": 1798,
+          "bytes": 1145222,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/xining-02/1280.webp",
+      "thumbnail": "assets/gallery/xining-02/640.webp",
+      "srcset": "assets/gallery/xining-02/640.webp 640w, assets/gallery/xining-02/1280.webp 1280w, assets/gallery/xining-02/2400.webp 2400w"
+    },
+    {
+      "id": "xining-panorama",
+      "group": "xining",
+      "title": {
+        "en": "Xining panorama",
+        "zh": "西宁全景"
+      },
+      "caption": {
+        "en": "A view of Xining.",
+        "zh": "西宁城市景观。"
+      },
+      "width": 28800,
+      "height": 14400,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/xining-panorama.jpg",
+        "mime": "image/jpeg",
+        "bytes": 169868834,
+        "sha256": "78dceec6772e4e287e8b3355c6ccadf6a239852b027306326b3f898d8cf01d21",
+        "width": 28800,
+        "height": 14400
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/xining-panorama/640.webp",
+          "width": 640,
+          "height": 320,
+          "bytes": 30464,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/xining-panorama/1280.webp",
+          "width": 1280,
+          "height": 640,
+          "bytes": 113626,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/xining-panorama/2400.webp",
+          "width": 2400,
+          "height": 1200,
+          "bytes": 336940,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/xining-panorama/1280.webp",
+      "thumbnail": "assets/gallery/xining-panorama/640.webp",
+      "srcset": "assets/gallery/xining-panorama/640.webp 640w, assets/gallery/xining-panorama/1280.webp 1280w, assets/gallery/xining-panorama/2400.webp 2400w",
+      "deepZoom": {
+        "dzi": "assets/gallery/deepzoom/xining-panorama.dzi",
+        "tileUrlTemplate": "assets/gallery/deepzoom/xining-panorama_files/{level}/{x}_{y}.jpeg",
+        "tileSize": 512,
+        "overlap": 1,
+        "format": "jpeg",
+        "quality": 90,
+        "width": 28800,
+        "height": 14400,
+        "minLevel": 0,
+        "maxLevel": 15,
+        "tileCount": 2260,
+        "loadOnDemand": true,
+        "levels": [
+          {
+            "level": 0,
+            "width": 1,
+            "height": 1,
+            "columns": 1,
+            "rows": 1,
+            "tileCount": 1
+          },
+          {
+            "level": 1,
+            "width": 2,
+            "height": 1,
+            "columns": 1,
+            "rows": 1,
+            "tileCount": 1
+          },
+          {
+            "level": 2,
+            "width": 4,
+            "height": 2,
+            "columns": 1,
+            "rows": 1,
+            "tileCount": 1
+          },
+          {
+            "level": 3,
+            "width": 8,
+            "height": 4,
+            "columns": 1,
+            "rows": 1,
+            "tileCount": 1
+          },
+          {
+            "level": 4,
+            "width": 15,
+            "height": 8,
+            "columns": 1,
+            "rows": 1,
+            "tileCount": 1
+          },
+          {
+            "level": 5,
+            "width": 29,
+            "height": 15,
+            "columns": 1,
+            "rows": 1,
+            "tileCount": 1
+          },
+          {
+            "level": 6,
+            "width": 57,
+            "height": 29,
+            "columns": 1,
+            "rows": 1,
+            "tileCount": 1
+          },
+          {
+            "level": 7,
+            "width": 113,
+            "height": 57,
+            "columns": 1,
+            "rows": 1,
+            "tileCount": 1
+          },
+          {
+            "level": 8,
+            "width": 225,
+            "height": 113,
+            "columns": 1,
+            "rows": 1,
+            "tileCount": 1
+          },
+          {
+            "level": 9,
+            "width": 450,
+            "height": 225,
+            "columns": 1,
+            "rows": 1,
+            "tileCount": 1
+          },
+          {
+            "level": 10,
+            "width": 900,
+            "height": 450,
+            "columns": 2,
+            "rows": 1,
+            "tileCount": 2
+          },
+          {
+            "level": 11,
+            "width": 1800,
+            "height": 900,
+            "columns": 4,
+            "rows": 2,
+            "tileCount": 8
+          },
+          {
+            "level": 12,
+            "width": 3600,
+            "height": 1800,
+            "columns": 8,
+            "rows": 4,
+            "tileCount": 32
+          },
+          {
+            "level": 13,
+            "width": 7200,
+            "height": 3600,
+            "columns": 15,
+            "rows": 8,
+            "tileCount": 120
+          },
+          {
+            "level": 14,
+            "width": 14400,
+            "height": 7200,
+            "columns": 29,
+            "rows": 15,
+            "tileCount": 435
+          },
+          {
+            "level": 15,
+            "width": 28800,
+            "height": 14400,
+            "columns": 57,
+            "rows": 29,
+            "tileCount": 1653
+          }
+        ]
+      }
+    },
+    {
+      "id": "eboliang-01",
+      "group": "eboliang",
+      "title": {
+        "en": "Eboliang · 1",
+        "zh": "俄博梁 · 1"
+      },
+      "caption": {
+        "en": "Yardang formations at Eboliang.",
+        "zh": "俄博梁的雅丹地貌。"
+      },
+      "width": 10560,
+      "height": 5940,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/eboliang-01.jpg",
+        "mime": "image/jpeg",
+        "bytes": 34997404,
+        "sha256": "321f9af93837eeab699118abac737da46341ff00b048122018e2de3aac618f36",
+        "width": 10560,
+        "height": 5940
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/eboliang-01/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 85072,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/eboliang-01/1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 333612,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/eboliang-01/2400.webp",
+          "width": 2400,
+          "height": 1350,
+          "bytes": 1024314,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/eboliang-01/1280.webp",
+      "thumbnail": "assets/gallery/eboliang-01/640.webp",
+      "srcset": "assets/gallery/eboliang-01/640.webp 640w, assets/gallery/eboliang-01/1280.webp 1280w, assets/gallery/eboliang-01/2400.webp 2400w"
+    },
+    {
+      "id": "eboliang-02",
+      "group": "eboliang",
+      "title": {
+        "en": "Eboliang · 2",
+        "zh": "俄博梁 · 2"
+      },
+      "caption": {
+        "en": "Yardang formations at Eboliang.",
+        "zh": "俄博梁的雅丹地貌。"
+      },
+      "width": 10560,
+      "height": 5940,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/eboliang-02.jpg",
+        "mime": "image/jpeg",
+        "bytes": 38359350,
+        "sha256": "82b8e5b244764d3008e9cba3574f1aa912962ec84bf016a00a85c230f21d5502",
+        "width": 10560,
+        "height": 5940
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/eboliang-02/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 54564,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/eboliang-02/1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 249814,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/eboliang-02/2400.webp",
+          "width": 2400,
+          "height": 1350,
+          "bytes": 854652,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/eboliang-02/1280.webp",
+      "thumbnail": "assets/gallery/eboliang-02/640.webp",
+      "srcset": "assets/gallery/eboliang-02/640.webp 640w, assets/gallery/eboliang-02/1280.webp 1280w, assets/gallery/eboliang-02/2400.webp 2400w"
+    },
+    {
+      "id": "eboliang-03",
+      "group": "eboliang",
+      "title": {
+        "en": "Eboliang · 3",
+        "zh": "俄博梁 · 3"
+      },
+      "caption": {
+        "en": "Yardang formations at Eboliang.",
+        "zh": "俄博梁的雅丹地貌。"
+      },
+      "width": 10560,
+      "height": 5940,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/eboliang-03.jpg",
+        "mime": "image/jpeg",
+        "bytes": 26517920,
+        "sha256": "607b1d7682304830a81cc0a3806ecef49e5f458e67ee634d6cf44a352f2f4bc9",
+        "width": 10560,
+        "height": 5940
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/eboliang-03/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 40534,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/eboliang-03/1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 154756,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/eboliang-03/2400.webp",
+          "width": 2400,
+          "height": 1350,
+          "bytes": 426518,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/eboliang-03/1280.webp",
+      "thumbnail": "assets/gallery/eboliang-03/640.webp",
+      "srcset": "assets/gallery/eboliang-03/640.webp 640w, assets/gallery/eboliang-03/1280.webp 1280w, assets/gallery/eboliang-03/2400.webp 2400w"
+    },
+    {
+      "id": "eboliang-04",
+      "group": "eboliang",
+      "title": {
+        "en": "Eboliang · 4",
+        "zh": "俄博梁 · 4"
+      },
+      "caption": {
+        "en": "Yardang formations at Eboliang.",
+        "zh": "俄博梁的雅丹地貌。"
+      },
+      "width": 10560,
+      "height": 5940,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/eboliang-04.jpg",
+        "mime": "image/jpeg",
+        "bytes": 39033420,
+        "sha256": "7fee0d24f4368fd38dc17037b7a94f72d78914230d87e9b50b5e24271e762477",
+        "width": 10560,
+        "height": 5940
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/eboliang-04/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 87600,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/eboliang-04/1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 334358,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/eboliang-04/2400.webp",
+          "width": 2400,
+          "height": 1350,
+          "bytes": 1055516,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/eboliang-04/1280.webp",
+      "thumbnail": "assets/gallery/eboliang-04/640.webp",
+      "srcset": "assets/gallery/eboliang-04/640.webp 640w, assets/gallery/eboliang-04/1280.webp 1280w, assets/gallery/eboliang-04/2400.webp 2400w"
+    },
+    {
+      "id": "eboliang-05",
+      "group": "eboliang",
+      "title": {
+        "en": "Eboliang · 5",
+        "zh": "俄博梁 · 5"
+      },
+      "caption": {
+        "en": "Yardang formations at Eboliang.",
+        "zh": "俄博梁的雅丹地貌。"
+      },
+      "width": 10560,
+      "height": 7912,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/eboliang-05.jpg",
+        "mime": "image/jpeg",
+        "bytes": 42167151,
+        "sha256": "305c6482d188b9cdb95cb2d78033a94d1943419ff47218a557503d2fd06494ff",
+        "width": 10560,
+        "height": 7912
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/eboliang-05/640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 73382,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/eboliang-05/1280.webp",
+          "width": 1280,
+          "height": 959,
+          "bytes": 308072,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/eboliang-05/2400.webp",
+          "width": 2400,
+          "height": 1798,
+          "bytes": 984320,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/eboliang-05/1280.webp",
+      "thumbnail": "assets/gallery/eboliang-05/640.webp",
+      "srcset": "assets/gallery/eboliang-05/640.webp 640w, assets/gallery/eboliang-05/1280.webp 1280w, assets/gallery/eboliang-05/2400.webp 2400w"
+    },
+    {
+      "id": "eboliang-06",
+      "group": "eboliang",
+      "title": {
+        "en": "Eboliang · 6",
+        "zh": "俄博梁 · 6"
+      },
+      "caption": {
+        "en": "Yardang formations at Eboliang.",
+        "zh": "俄博梁的雅丹地貌。"
+      },
+      "width": 10560,
+      "height": 7912,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/eboliang-06.jpg",
+        "mime": "image/jpeg",
+        "bytes": 45223103,
+        "sha256": "b9a538302da1f47bc9926729084e6f7122c8566baa0e6783f7d62a492c426fde",
+        "width": 10560,
+        "height": 7912
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/eboliang-06/640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 89908,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/eboliang-06/1280.webp",
+          "width": 1280,
+          "height": 959,
+          "bytes": 371818,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/eboliang-06/2400.webp",
+          "width": 2400,
+          "height": 1798,
+          "bytes": 1141370,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/eboliang-06/1280.webp",
+      "thumbnail": "assets/gallery/eboliang-06/640.webp",
+      "srcset": "assets/gallery/eboliang-06/640.webp 640w, assets/gallery/eboliang-06/1280.webp 1280w, assets/gallery/eboliang-06/2400.webp 2400w"
+    },
+    {
+      "id": "water-yadan-01",
+      "group": "water-yadan",
+      "title": {
+        "en": "Water Yadan · 1",
+        "zh": "水上雅丹 · 1"
+      },
+      "caption": {
+        "en": "Water and yardang formations.",
+        "zh": "水面与雅丹地貌。"
+      },
+      "width": 10560,
+      "height": 5940,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/water-yadan-01.jpg",
+        "mime": "image/jpeg",
+        "bytes": 41519041,
+        "sha256": "462dee3046667dd0598a1fd932ec7fc18b9336c70f527459c3a7f9b5081f91a9",
+        "width": 10560,
+        "height": 5940
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/water-yadan-01/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 57682,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/water-yadan-01/1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 258832,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/water-yadan-01/2400.webp",
+          "width": 2400,
+          "height": 1350,
+          "bytes": 894284,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/water-yadan-01/1280.webp",
+      "thumbnail": "assets/gallery/water-yadan-01/640.webp",
+      "srcset": "assets/gallery/water-yadan-01/640.webp 640w, assets/gallery/water-yadan-01/1280.webp 1280w, assets/gallery/water-yadan-01/2400.webp 2400w"
+    },
+    {
+      "id": "water-yadan-02",
+      "group": "water-yadan",
+      "title": {
+        "en": "Water Yadan · 2",
+        "zh": "水上雅丹 · 2"
+      },
+      "caption": {
+        "en": "Water and yardang formations.",
+        "zh": "水面与雅丹地貌。"
+      },
+      "width": 10560,
+      "height": 5940,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/water-yadan-02.jpg",
+        "mime": "image/jpeg",
+        "bytes": 55904612,
+        "sha256": "ba0e08cd02f79515e934436f5b8ba33727a8ee86e9aeb272efa48ea1c601c37e",
+        "width": 10560,
+        "height": 5940
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/water-yadan-02/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 76958,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/water-yadan-02/1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 397234,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/water-yadan-02/2400.webp",
+          "width": 2400,
+          "height": 1350,
+          "bytes": 1456412,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/water-yadan-02/1280.webp",
+      "thumbnail": "assets/gallery/water-yadan-02/640.webp",
+      "srcset": "assets/gallery/water-yadan-02/640.webp 640w, assets/gallery/water-yadan-02/1280.webp 1280w, assets/gallery/water-yadan-02/2400.webp 2400w"
+    },
+    {
+      "id": "water-yadan-03",
+      "group": "water-yadan",
+      "title": {
+        "en": "Water Yadan · 3",
+        "zh": "水上雅丹 · 3"
+      },
+      "caption": {
+        "en": "Water and yardang formations.",
+        "zh": "水面与雅丹地貌。"
+      },
+      "width": 10560,
+      "height": 5940,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/water-yadan-03.jpg",
+        "mime": "image/jpeg",
+        "bytes": 45070897,
+        "sha256": "00bb0a996429f150c99dbfcb21ffd3f3dd1beb3e38c8d4ec16cf7ca1d4de8e3d",
+        "width": 10560,
+        "height": 5940
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/water-yadan-03/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 67782,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/water-yadan-03/1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 287888,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/water-yadan-03/2400.webp",
+          "width": 2400,
+          "height": 1350,
+          "bytes": 984762,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/water-yadan-03/1280.webp",
+      "thumbnail": "assets/gallery/water-yadan-03/640.webp",
+      "srcset": "assets/gallery/water-yadan-03/640.webp 640w, assets/gallery/water-yadan-03/1280.webp 1280w, assets/gallery/water-yadan-03/2400.webp 2400w"
+    },
+    {
+      "id": "qarhan-01",
+      "group": "qarhan",
+      "title": {
+        "en": "Qarhan Salt Lake · 1",
+        "zh": "察尔汗盐湖 · 1"
+      },
+      "caption": {
+        "en": "Salt-lake scenery at Qarhan.",
+        "zh": "察尔汗盐湖景观。"
+      },
+      "width": 10560,
+      "height": 7912,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/qarhan-01.jpg",
+        "mime": "image/jpeg",
+        "bytes": 48198868,
+        "sha256": "e11f4b001ae7849037b4153e9f8ea3138c62beed4f224e3eb2d405d476a8970a",
+        "width": 10560,
+        "height": 7912
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/qarhan-01/640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 34808,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/qarhan-01/1280.webp",
+          "width": 1280,
+          "height": 959,
+          "bytes": 224238,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/qarhan-01/2400.webp",
+          "width": 2400,
+          "height": 1798,
+          "bytes": 883096,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/qarhan-01/1280.webp",
+      "thumbnail": "assets/gallery/qarhan-01/640.webp",
+      "srcset": "assets/gallery/qarhan-01/640.webp 640w, assets/gallery/qarhan-01/1280.webp 1280w, assets/gallery/qarhan-01/2400.webp 2400w"
+    },
+    {
+      "id": "qarhan-02",
+      "group": "qarhan",
+      "title": {
+        "en": "Qarhan Salt Lake · 2",
+        "zh": "察尔汗盐湖 · 2"
+      },
+      "caption": {
+        "en": "Salt-lake scenery at Qarhan.",
+        "zh": "察尔汗盐湖景观。"
+      },
+      "width": 10560,
+      "height": 5940,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/qarhan-02.jpg",
+        "mime": "image/jpeg",
+        "bytes": 35903539,
+        "sha256": "006ff0cbe188c0f730117cdc34782e6c2b3c972a336ab56c4a346df3aa1cb8ae",
+        "width": 10560,
+        "height": 5940
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/qarhan-02/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 38530,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/qarhan-02/1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 163460,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/qarhan-02/2400.webp",
+          "width": 2400,
+          "height": 1350,
+          "bytes": 547748,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/qarhan-02/1280.webp",
+      "thumbnail": "assets/gallery/qarhan-02/640.webp",
+      "srcset": "assets/gallery/qarhan-02/640.webp 640w, assets/gallery/qarhan-02/1280.webp 1280w, assets/gallery/qarhan-02/2400.webp 2400w"
+    },
+    {
+      "id": "kunlun-mountains",
+      "group": "kunlun",
+      "title": {
+        "en": "Kunlun Mountains",
+        "zh": "昆仑山"
+      },
+      "caption": {
+        "en": "A landscape from the Kunlun and Hoh Xil journey.",
+        "zh": "昆仑与可可西里沿途景观。"
+      },
+      "width": 10544,
+      "height": 5924,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/kunlun-mountains.jpg",
+        "mime": "image/jpeg",
+        "bytes": 33586416,
+        "sha256": "5d1cbfc304d877daf90dc1565b8498611c29a557a5e0808a18126012edfad9e5",
+        "width": 10544,
+        "height": 5924
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/kunlun-mountains/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 63400,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/kunlun-mountains/1280.webp",
+          "width": 1280,
+          "height": 719,
+          "bytes": 269300,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/kunlun-mountains/2400.webp",
+          "width": 2400,
+          "height": 1348,
+          "bytes": 856616,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/kunlun-mountains/1280.webp",
+      "thumbnail": "assets/gallery/kunlun-mountains/640.webp",
+      "srcset": "assets/gallery/kunlun-mountains/640.webp 640w, assets/gallery/kunlun-mountains/1280.webp 1280w, assets/gallery/kunlun-mountains/2400.webp 2400w"
+    },
+    {
+      "id": "kunlun-pass",
+      "group": "kunlun",
+      "title": {
+        "en": "Kunlun Pass",
+        "zh": "昆仑山口"
+      },
+      "caption": {
+        "en": "A landscape from the Kunlun and Hoh Xil journey.",
+        "zh": "昆仑与可可西里沿途景观。"
+      },
+      "width": 8200,
+      "height": 6144,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/kunlun-pass.jpg",
+        "mime": "image/jpeg",
+        "bytes": 31830089,
+        "sha256": "cba1486e9eefc873d27338fa2e7182de68d9df46b410cc048ff22c5476a2dec3",
+        "width": 8200,
+        "height": 6144
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/kunlun-pass/640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 80920,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/kunlun-pass/1280.webp",
+          "width": 1280,
+          "height": 959,
+          "bytes": 363656,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/kunlun-pass/2400.webp",
+          "width": 2400,
+          "height": 1798,
+          "bytes": 1228676,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/kunlun-pass/1280.webp",
+      "thumbnail": "assets/gallery/kunlun-pass/640.webp",
+      "srcset": "assets/gallery/kunlun-pass/640.webp 640w, assets/gallery/kunlun-pass/1280.webp 1280w, assets/gallery/kunlun-pass/2400.webp 2400w"
+    },
+    {
+      "id": "kunlun-hoh-xil",
+      "group": "kunlun",
+      "title": {
+        "en": "Hoh Xil",
+        "zh": "可可西里"
+      },
+      "caption": {
+        "en": "A landscape from the Kunlun and Hoh Xil journey.",
+        "zh": "昆仑与可可西里沿途景观。"
+      },
+      "width": 10544,
+      "height": 5924,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/kunlun-hoh-xil.jpg",
+        "mime": "image/jpeg",
+        "bytes": 35084207,
+        "sha256": "bf22c9d51c72364302cc34ce2efe43f1c5c6abed6c2a821f4e844d41041aa7e5",
+        "width": 10544,
+        "height": 5924
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/kunlun-hoh-xil/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 37864,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/kunlun-hoh-xil/1280.webp",
+          "width": 1280,
+          "height": 719,
+          "bytes": 137010,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/kunlun-hoh-xil/2400.webp",
+          "width": 2400,
+          "height": 1348,
+          "bytes": 384278,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/kunlun-hoh-xil/1280.webp",
+      "thumbnail": "assets/gallery/kunlun-hoh-xil/640.webp",
+      "srcset": "assets/gallery/kunlun-hoh-xil/640.webp 640w, assets/gallery/kunlun-hoh-xil/1280.webp 1280w, assets/gallery/kunlun-hoh-xil/2400.webp 2400w"
+    },
+    {
+      "id": "kunlun-jade",
+      "group": "kunlun",
+      "title": {
+        "en": "Kunlun jade site",
+        "zh": "昆仑玉开采地"
+      },
+      "caption": {
+        "en": "A landscape from the Kunlun and Hoh Xil journey.",
+        "zh": "昆仑与可可西里沿途景观。"
+      },
+      "width": 10544,
+      "height": 5924,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/kunlun-jade.jpg",
+        "mime": "image/jpeg",
+        "bytes": 28118331,
+        "sha256": "ed710b3504db0ef89dd3c32b175fb328b68b87e2343550fd3ef5ed08ba9ae37a",
+        "width": 10544,
+        "height": 5924
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/kunlun-jade/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 58850,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/kunlun-jade/1280.webp",
+          "width": 1280,
+          "height": 719,
+          "bytes": 231790,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/kunlun-jade/2400.webp",
+          "width": 2400,
+          "height": 1348,
+          "bytes": 678082,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/kunlun-jade/1280.webp",
+      "thumbnail": "assets/gallery/kunlun-jade/640.webp",
+      "srcset": "assets/gallery/kunlun-jade/640.webp 640w, assets/gallery/kunlun-jade/1280.webp 1280w, assets/gallery/kunlun-jade/2400.webp 2400w"
+    },
+    {
+      "id": "kunlun-mineral",
+      "group": "kunlun",
+      "title": {
+        "en": "Kunlun mineral landscape",
+        "zh": "昆仑矿泉地貌"
+      },
+      "caption": {
+        "en": "A landscape from the Kunlun and Hoh Xil journey.",
+        "zh": "昆仑与可可西里沿途景观。"
+      },
+      "width": 10544,
+      "height": 5924,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/kunlun-mineral.jpg",
+        "mime": "image/jpeg",
+        "bytes": 32823561,
+        "sha256": "110f8467376c362ab202e4fb4a42c74c4af0a4dac0df5e116159cd60194427c4",
+        "width": 10544,
+        "height": 5924
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/kunlun-mineral/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 58792,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/kunlun-mineral/1280.webp",
+          "width": 1280,
+          "height": 719,
+          "bytes": 242150,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/kunlun-mineral/2400.webp",
+          "width": 2400,
+          "height": 1348,
+          "bytes": 738714,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/kunlun-mineral/1280.webp",
+      "thumbnail": "assets/gallery/kunlun-mineral/640.webp",
+      "srcset": "assets/gallery/kunlun-mineral/640.webp 640w, assets/gallery/kunlun-mineral/1280.webp 1280w, assets/gallery/kunlun-mineral/2400.webp 2400w"
+    },
+    {
+      "id": "heidushan-north",
+      "group": "heidushan",
+      "title": {
+        "en": "Heidushan · north",
+        "zh": "黑独山 · 向北"
+      },
+      "caption": {
+        "en": "Rocky hills and desert around Heidushan.",
+        "zh": "黑独山周边山体与戈壁。"
+      },
+      "width": 10560,
+      "height": 5940,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/heidushan-north.jpg",
+        "mime": "image/jpeg",
+        "bytes": 34497152,
+        "sha256": "57d1b86edb48f703af781fe759c6e7d4554b0c07380b3934bebcc4ce8262a2a7",
+        "width": 10560,
+        "height": 5940
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/heidushan-north/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 53242,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/heidushan-north/1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 230894,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/heidushan-north/2400.webp",
+          "width": 2400,
+          "height": 1350,
+          "bytes": 842822,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/heidushan-north/1280.webp",
+      "thumbnail": "assets/gallery/heidushan-north/640.webp",
+      "srcset": "assets/gallery/heidushan-north/640.webp 640w, assets/gallery/heidushan-north/1280.webp 1280w, assets/gallery/heidushan-north/2400.webp 2400w"
+    },
+    {
+      "id": "heidushan-east",
+      "group": "heidushan",
+      "title": {
+        "en": "Heidushan · east",
+        "zh": "黑独山 · 向东"
+      },
+      "caption": {
+        "en": "Rocky hills and desert around Heidushan.",
+        "zh": "黑独山周边山体与戈壁。"
+      },
+      "width": 10560,
+      "height": 5940,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/heidushan-east.jpg",
+        "mime": "image/jpeg",
+        "bytes": 32571354,
+        "sha256": "6df770d9ce0048d253c5afd3b3aa93df255509e4a4d5e9ccf3add141bd1f550e",
+        "width": 10560,
+        "height": 5940
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/heidushan-east/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 45860,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/heidushan-east/1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 162226,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/heidushan-east/2400.webp",
+          "width": 2400,
+          "height": 1350,
+          "bytes": 477462,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/heidushan-east/1280.webp",
+      "thumbnail": "assets/gallery/heidushan-east/640.webp",
+      "srcset": "assets/gallery/heidushan-east/640.webp 640w, assets/gallery/heidushan-east/1280.webp 1280w, assets/gallery/heidushan-east/2400.webp 2400w"
+    },
+    {
+      "id": "heidushan-south",
+      "group": "heidushan",
+      "title": {
+        "en": "Heidushan · south",
+        "zh": "黑独山 · 向南"
+      },
+      "caption": {
+        "en": "Rocky hills and desert around Heidushan.",
+        "zh": "黑独山周边山体与戈壁。"
+      },
+      "width": 10560,
+      "height": 7912,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/heidushan-south.jpg",
+        "mime": "image/jpeg",
+        "bytes": 48245590,
+        "sha256": "09344d759e8930f0ab49902bea4cfcdf0ca2570d14cef731712c59ad8abced14",
+        "width": 10560,
+        "height": 7912
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/heidushan-south/640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 62260,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/heidushan-south/1280.webp",
+          "width": 1280,
+          "height": 959,
+          "bytes": 271624,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/heidushan-south/2400.webp",
+          "width": 2400,
+          "height": 1798,
+          "bytes": 979724,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/heidushan-south/1280.webp",
+      "thumbnail": "assets/gallery/heidushan-south/640.webp",
+      "srcset": "assets/gallery/heidushan-south/640.webp 640w, assets/gallery/heidushan-south/1280.webp 1280w, assets/gallery/heidushan-south/2400.webp 2400w"
+    },
+    {
+      "id": "lenghu-01",
+      "group": "lenghu",
+      "title": {
+        "en": "Lenghu oilfield remains · 1",
+        "zh": "冷湖油田遗址 · 1"
+      },
+      "caption": {
+        "en": "Remains of the Lenghu oilfield.",
+        "zh": "冷湖油田遗址。"
+      },
+      "width": 10560,
+      "height": 5940,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/lenghu-01.jpg",
+        "mime": "image/jpeg",
+        "bytes": 28106703,
+        "sha256": "fb5ee93ed023b84601b29bc39da0dded31e9c93700b67c5ee14039861b9ac6f9",
+        "width": 10560,
+        "height": 5940
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/lenghu-01/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 67686,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/lenghu-01/1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 262654,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/lenghu-01/2400.webp",
+          "width": 2400,
+          "height": 1350,
+          "bytes": 740580,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/lenghu-01/1280.webp",
+      "thumbnail": "assets/gallery/lenghu-01/640.webp",
+      "srcset": "assets/gallery/lenghu-01/640.webp 640w, assets/gallery/lenghu-01/1280.webp 1280w, assets/gallery/lenghu-01/2400.webp 2400w"
+    },
+    {
+      "id": "lenghu-02",
+      "group": "lenghu",
+      "title": {
+        "en": "Lenghu oilfield remains · 2",
+        "zh": "冷湖油田遗址 · 2"
+      },
+      "caption": {
+        "en": "Remains of the Lenghu oilfield.",
+        "zh": "冷湖油田遗址。"
+      },
+      "width": 10560,
+      "height": 5940,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/lenghu-02.jpg",
+        "mime": "image/jpeg",
+        "bytes": 19832100,
+        "sha256": "4333b53e84043eab46db98eec7d2d6bbfa06185c1c5fcaf9209842e74fed3fd0",
+        "width": 10560,
+        "height": 5940
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/lenghu-02/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 53060,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/lenghu-02/1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 191184,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/lenghu-02/2400.webp",
+          "width": 2400,
+          "height": 1350,
+          "bytes": 518312,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/lenghu-02/1280.webp",
+      "thumbnail": "assets/gallery/lenghu-02/640.webp",
+      "srcset": "assets/gallery/lenghu-02/640.webp 640w, assets/gallery/lenghu-02/1280.webp 1280w, assets/gallery/lenghu-02/2400.webp 2400w"
+    },
+    {
+      "id": "energy-01",
+      "group": "energy",
+      "title": {
+        "en": "Energy site · 1",
+        "zh": "能源基地 · 1"
+      },
+      "caption": {
+        "en": "Energy infrastructure; exact location unconfirmed.",
+        "zh": "能源设施；具体地点待确认。"
+      },
+      "width": 10560,
+      "height": 5940,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/energy-01.jpg",
+        "mime": "image/jpeg",
+        "bytes": 39195365,
+        "sha256": "48c2668debc65b925cd0e7e9e5e2dd9daf3d1a198f60c69a0f28e82533676280",
+        "width": 10560,
+        "height": 5940
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/energy-01/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 34768,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/energy-01/1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 170728,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/energy-01/2400.webp",
+          "width": 2400,
+          "height": 1350,
+          "bytes": 633836,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/energy-01/1280.webp",
+      "thumbnail": "assets/gallery/energy-01/640.webp",
+      "srcset": "assets/gallery/energy-01/640.webp 640w, assets/gallery/energy-01/1280.webp 1280w, assets/gallery/energy-01/2400.webp 2400w"
+    },
+    {
+      "id": "energy-02",
+      "group": "energy",
+      "title": {
+        "en": "Energy site · 2",
+        "zh": "能源基地 · 2"
+      },
+      "caption": {
+        "en": "Energy infrastructure; exact location unconfirmed.",
+        "zh": "能源设施；具体地点待确认。"
+      },
+      "width": 10560,
+      "height": 5940,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/energy-02.jpg",
+        "mime": "image/jpeg",
+        "bytes": 33142956,
+        "sha256": "0fa58368592cc8e1e3b5d10e0b32d036f39b4f169582834d3151f3b9db5144d4",
+        "width": 10560,
+        "height": 5940
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/energy-02/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 26928,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/energy-02/1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 128848,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/energy-02/2400.webp",
+          "width": 2400,
+          "height": 1350,
+          "bytes": 421100,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/energy-02/1280.webp",
+      "thumbnail": "assets/gallery/energy-02/640.webp",
+      "srcset": "assets/gallery/energy-02/640.webp 640w, assets/gallery/energy-02/1280.webp 1280w, assets/gallery/energy-02/2400.webp 2400w"
+    },
+    {
+      "id": "hexicorridor-dangjin",
+      "group": "hexicorridor",
+      "title": {
+        "en": "Dangjin Pass · Gansu side",
+        "zh": "当金山垭口 · 甘肃侧"
+      },
+      "caption": {
+        "en": "A view from the journey through Gansu.",
+        "zh": "甘肃沿途景观。"
+      },
+      "width": 10560,
+      "height": 5940,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/hexicorridor-dangjin.jpg",
+        "mime": "image/jpeg",
+        "bytes": 31798279,
+        "sha256": "0124d8fdd94a18049e8f40125f5327277f21d07e0a19933fbfc1c7c526d2d756",
+        "width": 10560,
+        "height": 5940
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/hexicorridor-dangjin/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 63180,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/hexicorridor-dangjin/1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 263942,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/hexicorridor-dangjin/2400.webp",
+          "width": 2400,
+          "height": 1350,
+          "bytes": 810248,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/hexicorridor-dangjin/1280.webp",
+      "thumbnail": "assets/gallery/hexicorridor-dangjin/640.webp",
+      "srcset": "assets/gallery/hexicorridor-dangjin/640.webp 640w, assets/gallery/hexicorridor-dangjin/1280.webp 1280w, assets/gallery/hexicorridor-dangjin/2400.webp 2400w"
+    },
+    {
+      "id": "hexicorridor-guazhou",
+      "group": "hexicorridor",
+      "title": {
+        "en": "Guazhou · Hexi Corridor",
+        "zh": "瓜州 · 河西走廊"
+      },
+      "caption": {
+        "en": "A view from the journey through Gansu.",
+        "zh": "甘肃沿途景观。"
+      },
+      "width": 10560,
+      "height": 5940,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/hexicorridor-guazhou.jpg",
+        "mime": "image/jpeg",
+        "bytes": 33571638,
+        "sha256": "7514eb9cad5bdf695418176acffa002b53d8a4d2a45a8cc538683f700e4a759c",
+        "width": 10560,
+        "height": 5940
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/hexicorridor-guazhou/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 53528,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/hexicorridor-guazhou/1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 217828,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/hexicorridor-guazhou/2400.webp",
+          "width": 2400,
+          "height": 1350,
+          "bytes": 654920,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/hexicorridor-guazhou/1280.webp",
+      "thumbnail": "assets/gallery/hexicorridor-guazhou/640.webp",
+      "srcset": "assets/gallery/hexicorridor-guazhou/640.webp 640w, assets/gallery/hexicorridor-guazhou/1280.webp 1280w, assets/gallery/hexicorridor-guazhou/2400.webp 2400w"
+    },
+    {
+      "id": "hexicorridor-dunhuang",
+      "group": "hexicorridor",
+      "title": {
+        "en": "Dunhuang film set",
+        "zh": "敦煌影视城"
+      },
+      "caption": {
+        "en": "A view from the journey through Gansu.",
+        "zh": "甘肃沿途景观。"
+      },
+      "width": 10560,
+      "height": 5940,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/hexicorridor-dunhuang.jpg",
+        "mime": "image/jpeg",
+        "bytes": 42048670,
+        "sha256": "c6b33bdb570712236d7db689ee1f2b41916e3f2625f2efac8aedcf0cfa646cc5",
+        "width": 10560,
+        "height": 5940
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/hexicorridor-dunhuang/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 68630,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/hexicorridor-dunhuang/1280.webp",
+          "width": 1280,
+          "height": 720,
+          "bytes": 276848,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/hexicorridor-dunhuang/2400.webp",
+          "width": 2400,
+          "height": 1350,
+          "bytes": 951538,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/hexicorridor-dunhuang/1280.webp",
+      "thumbnail": "assets/gallery/hexicorridor-dunhuang/640.webp",
+      "srcset": "assets/gallery/hexicorridor-dunhuang/640.webp 640w, assets/gallery/hexicorridor-dunhuang/1280.webp 1280w, assets/gallery/hexicorridor-dunhuang/2400.webp 2400w"
+    },
+    {
+      "id": "hexicorridor-pingshan-01",
+      "group": "hexicorridor",
+      "title": {
+        "en": "Pingshan Lake Canyon · 1",
+        "zh": "平山湖大峡谷 · 1"
+      },
+      "caption": {
+        "en": "A view from the journey through Gansu.",
+        "zh": "甘肃沿途景观。"
+      },
+      "width": 10560,
+      "height": 7912,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/hexicorridor-pingshan-01.jpg",
+        "mime": "image/jpeg",
+        "bytes": 43635742,
+        "sha256": "021e61a0809730346e60ca2f66118e831718785f3007cfd469fb4de012149c5d",
+        "width": 10560,
+        "height": 7912
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/hexicorridor-pingshan-01/640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 70796,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/hexicorridor-pingshan-01/1280.webp",
+          "width": 1280,
+          "height": 959,
+          "bytes": 272338,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/hexicorridor-pingshan-01/2400.webp",
+          "width": 2400,
+          "height": 1798,
+          "bytes": 819222,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/hexicorridor-pingshan-01/1280.webp",
+      "thumbnail": "assets/gallery/hexicorridor-pingshan-01/640.webp",
+      "srcset": "assets/gallery/hexicorridor-pingshan-01/640.webp 640w, assets/gallery/hexicorridor-pingshan-01/1280.webp 1280w, assets/gallery/hexicorridor-pingshan-01/2400.webp 2400w"
+    },
+    {
+      "id": "hexicorridor-pingshan-02",
+      "group": "hexicorridor",
+      "title": {
+        "en": "Pingshan Lake Canyon · 2",
+        "zh": "平山湖大峡谷 · 2"
+      },
+      "caption": {
+        "en": "A view from the journey through Gansu.",
+        "zh": "甘肃沿途景观。"
+      },
+      "width": 5909,
+      "height": 5909,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/hexicorridor-pingshan-02.jpg",
+        "mime": "image/jpeg",
+        "bytes": 17009151,
+        "sha256": "152ee0f3106c5ad6daa805a7afa3c7859f548e5af21581d8b60cfeeeb2e8b358",
+        "width": 5909,
+        "height": 5909
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/hexicorridor-pingshan-02/640.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 76822,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/hexicorridor-pingshan-02/1280.webp",
+          "width": 1280,
+          "height": 1280,
+          "bytes": 278426,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/hexicorridor-pingshan-02/2400.webp",
+          "width": 2400,
+          "height": 2400,
+          "bytes": 768906,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/hexicorridor-pingshan-02/1280.webp",
+      "thumbnail": "assets/gallery/hexicorridor-pingshan-02/640.webp",
+      "srcset": "assets/gallery/hexicorridor-pingshan-02/640.webp 640w, assets/gallery/hexicorridor-pingshan-02/1280.webp 1280w, assets/gallery/hexicorridor-pingshan-02/2400.webp 2400w"
+    },
+    {
+      "id": "hexicorridor-biandukou",
+      "group": "hexicorridor",
+      "title": {
+        "en": "Biandukou · Minle side",
+        "zh": "扁都口 · 民乐侧"
+      },
+      "caption": {
+        "en": "A view from the journey through Gansu.",
+        "zh": "甘肃沿途景观。"
+      },
+      "width": 10544,
+      "height": 5924,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/hexicorridor-biandukou.jpg",
+        "mime": "image/jpeg",
+        "bytes": 40216515,
+        "sha256": "5ccd9a611f1b3abee7170b4fd010a5eef16c5a888aec16fb60ce2b5760fab653",
+        "width": 10544,
+        "height": 5924
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/hexicorridor-biandukou/640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 54022,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/hexicorridor-biandukou/1280.webp",
+          "width": 1280,
+          "height": 719,
+          "bytes": 227048,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/hexicorridor-biandukou/2400.webp",
+          "width": 2400,
+          "height": 1348,
+          "bytes": 747524,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/hexicorridor-biandukou/1280.webp",
+      "thumbnail": "assets/gallery/hexicorridor-biandukou/640.webp",
+      "srcset": "assets/gallery/hexicorridor-biandukou/640.webp 640w, assets/gallery/hexicorridor-biandukou/1280.webp 1280w, assets/gallery/hexicorridor-biandukou/2400.webp 2400w"
+    },
+    {
+      "id": "tuotuohe-01",
+      "group": "tuotuohe",
+      "title": {
+        "en": "Tuotuo River · 1",
+        "zh": "沱沱河 · 1"
+      },
+      "caption": {
+        "en": "A view from the Tuotuo River visit.",
+        "zh": "沱沱河行程影像。"
+      },
+      "width": 4888,
+      "height": 2712,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/tuotuohe-01.jpg",
+        "mime": "image/jpeg",
+        "bytes": 5473872,
+        "sha256": "61863a2fc3b1946f8cb1cfea70e54d86c2194b76d0156215eb04833f9f22d80c",
+        "width": 4888,
+        "height": 2712
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/tuotuohe-01/640.webp",
+          "width": 640,
+          "height": 355,
+          "bytes": 34800,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/tuotuohe-01/1280.webp",
+          "width": 1280,
+          "height": 710,
+          "bytes": 113016,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/tuotuohe-01/2400.webp",
+          "width": 2400,
+          "height": 1332,
+          "bytes": 255668,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/tuotuohe-01/1280.webp",
+      "thumbnail": "assets/gallery/tuotuohe-01/640.webp",
+      "srcset": "assets/gallery/tuotuohe-01/640.webp 640w, assets/gallery/tuotuohe-01/1280.webp 1280w, assets/gallery/tuotuohe-01/2400.webp 2400w"
+    },
+    {
+      "id": "tuotuohe-02",
+      "group": "tuotuohe",
+      "title": {
+        "en": "Tuotuo River · 2",
+        "zh": "沱沱河 · 2"
+      },
+      "caption": {
+        "en": "A view from the Tuotuo River visit.",
+        "zh": "沱沱河行程影像。"
+      },
+      "width": 8192,
+      "height": 6144,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/tuotuohe-02.jpg",
+        "mime": "image/jpeg",
+        "bytes": 8305214,
+        "sha256": "93df855d3fcad83c04c766db26872339b797e4b5b417ef8f784c1e5a0724b8db",
+        "width": 8192,
+        "height": 6144
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/tuotuohe-02/640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 11954,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/tuotuohe-02/1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 38000,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/tuotuohe-02/2400.webp",
+          "width": 2400,
+          "height": 1800,
+          "bytes": 91790,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/tuotuohe-02/1280.webp",
+      "thumbnail": "assets/gallery/tuotuohe-02/640.webp",
+      "srcset": "assets/gallery/tuotuohe-02/640.webp 640w, assets/gallery/tuotuohe-02/1280.webp 1280w, assets/gallery/tuotuohe-02/2400.webp 2400w"
+    },
+    {
+      "id": "tuotuohe-03",
+      "group": "tuotuohe",
+      "title": {
+        "en": "Tuotuo River · 3",
+        "zh": "沱沱河 · 3"
+      },
+      "caption": {
+        "en": "A view from the Tuotuo River visit.",
+        "zh": "沱沱河行程影像。"
+      },
+      "width": 6144,
+      "height": 8192,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/tuotuohe-03.jpg",
+        "mime": "image/jpeg",
+        "bytes": 13722242,
+        "sha256": "027f77f0d5a1aa904d3ead060665968ffa4081c3dc27dc6b407c2fb2a19dde0f",
+        "width": 6144,
+        "height": 8192
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/tuotuohe-03/640.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 51554,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/tuotuohe-03/1280.webp",
+          "width": 1280,
+          "height": 1707,
+          "bytes": 203900,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/tuotuohe-03/2400.webp",
+          "width": 2400,
+          "height": 3200,
+          "bytes": 548794,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/tuotuohe-03/1280.webp",
+      "thumbnail": "assets/gallery/tuotuohe-03/640.webp",
+      "srcset": "assets/gallery/tuotuohe-03/640.webp 640w, assets/gallery/tuotuohe-03/1280.webp 1280w, assets/gallery/tuotuohe-03/2400.webp 2400w"
+    },
+    {
+      "id": "tuotuohe-04",
+      "group": "tuotuohe",
+      "title": {
+        "en": "Tuotuo River · 4",
+        "zh": "沱沱河 · 4"
+      },
+      "caption": {
+        "en": "A view from the Tuotuo River visit.",
+        "zh": "沱沱河行程影像。"
+      },
+      "width": 8192,
+      "height": 6144,
+      "original": {
+        "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/tuotuohe-04.jpg",
+        "mime": "image/jpeg",
+        "bytes": 11057526,
+        "sha256": "766ebff84b7e59a81b4ff8fc080345190a32e2625929909fa3c0eb44d1c74099",
+        "width": 8192,
+        "height": 6144
+      },
+      "previews": [
+        {
+          "src": "assets/gallery/tuotuohe-04/640.webp",
+          "width": 640,
+          "height": 480,
+          "bytes": 18964,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/tuotuohe-04/1280.webp",
+          "width": 1280,
+          "height": 960,
+          "bytes": 67456,
+          "mime": "image/webp"
+        },
+        {
+          "src": "assets/gallery/tuotuohe-04/2400.webp",
+          "width": 2400,
+          "height": 1800,
+          "bytes": 175854,
+          "mime": "image/webp"
+        }
+      ],
+      "src": "assets/gallery/tuotuohe-04/1280.webp",
+      "thumbnail": "assets/gallery/tuotuohe-04/640.webp",
+      "srcset": "assets/gallery/tuotuohe-04/640.webp 640w, assets/gallery/tuotuohe-04/1280.webp 1280w, assets/gallery/tuotuohe-04/2400.webp 2400w"
+    }
+  ],
+  "resumes": [
+    {
+      "id": "resume-en",
+      "language": "en",
+      "src": "assets/docs/resume-en.pdf",
+      "pageCount": 1,
+      "pages": [
+        {
+          "page": 1,
+          "widthPt": 595.280029296875,
+          "heightPt": 841.8900146484375,
+          "preview": {
+            "src": "assets/previews/resume-en/page-01-1600.webp",
+            "width": 1600,
+            "height": 2263,
+            "bytes": 532618,
+            "mime": "image/webp"
+          },
+          "thumbnail": {
+            "src": "assets/previews/resume-en/page-01-thumb.webp",
+            "width": 320,
+            "height": 453,
+            "bytes": 29492,
+            "mime": "image/webp"
+          }
+        }
+      ]
+    },
+    {
+      "id": "resume-zh",
+      "language": "zh",
+      "src": "assets/docs/resume-zh.pdf",
+      "pageCount": 1,
+      "pages": [
+        {
+          "page": 1,
+          "widthPt": 595.280029296875,
+          "heightPt": 841.8900146484375,
+          "preview": {
+            "src": "assets/previews/resume-zh/page-01-1600.webp",
+            "width": 1600,
+            "height": 2263,
+            "bytes": 555658,
+            "mime": "image/webp"
+          },
+          "thumbnail": {
+            "src": "assets/previews/resume-zh/page-01-thumb.webp",
+            "width": 320,
+            "height": 453,
+            "bytes": 25488,
+            "mime": "image/webp"
+          }
+        }
+      ]
+    }
+  ],
+  "branding": [
+    {
+      "id": "brand-logo",
+      "width": 1024,
+      "height": 1024,
+      "src": "assets/previews/branding/brand-logo-black.webp",
+      "preview": {
+        "src": "assets/previews/branding/brand-logo-black.webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 158788,
+        "mime": "image/webp"
+      },
+      "thumbnail": {
+        "src": "assets/previews/branding/brand-logo-thumb.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 9166,
+        "mime": "image/webp"
+      },
+      "background": "#000000",
+      "transparent": {
+        "src": "assets/previews/branding/brand-logo-transparent.webp",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 198932,
+        "mime": "image/webp"
+      },
+      "backgroundRemoval": "exterior-connected-white-only; enclosed white retained"
+    },
+    {
+      "id": "brand-collage-01",
+      "width": 1269,
+      "height": 714,
+      "src": "assets/previews/branding/brand-collage-01-black.webp",
+      "preview": {
+        "src": "assets/previews/branding/brand-collage-01-black.webp",
+        "width": 1269,
+        "height": 714,
+        "bytes": 692426,
+        "mime": "image/webp"
+      },
+      "thumbnail": {
+        "src": "assets/previews/branding/brand-collage-01-thumb.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 26966,
+        "mime": "image/webp"
+      },
+      "background": "#000000",
+      "backgroundRemoval": "outer-frame-and-gutters-only; panel interiors unchanged",
+      "preservedPanelBounds": [
+        [
+          14,
+          14,
+          414,
+          231
+        ],
+        [
+          423,
+          14,
+          833,
+          231
+        ],
+        [
+          842,
+          14,
+          1255,
+          231
+        ],
+        [
+          14,
+          240,
+          414,
+          467
+        ],
+        [
+          423,
+          240,
+          833,
+          467
+        ],
+        [
+          842,
+          240,
+          1255,
+          467
+        ],
+        [
+          14,
+          475,
+          414,
+          700
+        ],
+        [
+          423,
+          475,
+          833,
+          700
+        ],
+        [
+          842,
+          475,
+          1255,
+          700
+        ]
+      ]
+    },
+    {
+      "id": "brand-collage-02",
+      "width": 1269,
+      "height": 952,
+      "src": "assets/previews/branding/brand-collage-02-black.webp",
+      "preview": {
+        "src": "assets/previews/branding/brand-collage-02-black.webp",
+        "width": 1269,
+        "height": 952,
+        "bytes": 726194,
+        "mime": "image/webp"
+      },
+      "thumbnail": {
+        "src": "assets/previews/branding/brand-collage-02-thumb.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 28416,
+        "mime": "image/webp"
+      },
+      "background": "#000000",
+      "backgroundRemoval": "outer-frame-and-gutters-only; panel interiors unchanged",
+      "preservedPanelBounds": [
+        [
+          17,
+          14,
+          1255,
+          472
+        ],
+        [
+          14,
+          480,
+          1255,
+          938
+        ]
+      ]
+    }
+  ]
+}

@@ -59,3 +59,8 @@ npm-debug.log*
 
 # Original research report source (keep PDF in assets/pdf/)
 /V4.1.pdf
+
+# Private source manifest and local verification outputs
+/docs/media-manifest.json
+/.qa/
+/node_modules/

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-07T16:05:22.998Z",
+  "source": {
+    "repository": "yichen-kong/yichen-kong.github.io",
+    "repoId": "R_kgDOSkmIlA",
+    "categoryId": "DIC_kwDOSkmIlM4DHQ-n",
+    "discussionNumber": 1,
+    "discussionUrl": "https://github.com/yichen-kong/yichen-kong.github.io/discussions/1"
+  },
+  "discussion": {
+    "number": 1,
+    "title": "主页留言与讨论 · Website guestbook",
+    "body": "欢迎在这里留下问题或建议，也可以就网站中的项目交流。\n评论会公开显示。请不要发布手机号、邮箱、住址或其他个人敏感信息。阅读无需登录；发表评论需要 GitHub 账号。\n\nQuestions, suggestions and discussion about the projects on my website are welcome here.\nComments are public. Please do not post phone numbers, email addresses, home addresses or other sensitive personal information. Reading does not require sign-in; posting requires a GitHub account.\nWebsite: https://yichen-kong.github.io/",
+    "bodyTruncated": false,
+    "createdAt": "2026-10-07T14:47:51.000Z",
+    "updatedAt": "2026-10-07T14:47:51.000Z",
+    "publishedAt": "2026-10-07T14:47:51.000Z",
+    "locked": false,
+    "closed": false,
+    "author": {
+      "login": "yichen-kong"
+    },
+    "category": {
+      "name": "General",
+      "slug": "general"
+    },
+    "commentsTruncated": false,
+    "comments": []
+  }
+}

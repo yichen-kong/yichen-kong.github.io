@@ -1,0 +1,264 @@
+{
+  "release": "https://github.com/yichen-kong/yichen-kong.github.io/releases/tag/media-originals-20261007",
+  "files": [
+    {
+      "id": "xining-01",
+      "name": "xining-01.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/xining-01.jpg",
+      "size": 40788003,
+      "sha256": "f4677452a8c150ce93973ce4f3af11db9b34bd63093478769d736d0ce0d3a2e9"
+    },
+    {
+      "id": "xining-02",
+      "name": "xining-02.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/xining-02.jpg",
+      "size": 44524907,
+      "sha256": "5889589711bbf9050156cb77186007a24714b16084d5cbf8e702b2c4925f595d"
+    },
+    {
+      "id": "eboliang-01",
+      "name": "eboliang-01.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/eboliang-01.jpg",
+      "size": 34997404,
+      "sha256": "321f9af93837eeab699118abac737da46341ff00b048122018e2de3aac618f36"
+    },
+    {
+      "id": "eboliang-02",
+      "name": "eboliang-02.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/eboliang-02.jpg",
+      "size": 38359350,
+      "sha256": "82b8e5b244764d3008e9cba3574f1aa912962ec84bf016a00a85c230f21d5502"
+    },
+    {
+      "id": "eboliang-03",
+      "name": "eboliang-03.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/eboliang-03.jpg",
+      "size": 26517920,
+      "sha256": "607b1d7682304830a81cc0a3806ecef49e5f458e67ee634d6cf44a352f2f4bc9"
+    },
+    {
+      "id": "xining-panorama",
+      "name": "xining-panorama.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/xining-panorama.jpg",
+      "size": 169868834,
+      "sha256": "78dceec6772e4e287e8b3355c6ccadf6a239852b027306326b3f898d8cf01d21"
+    },
+    {
+      "id": "eboliang-04",
+      "name": "eboliang-04.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/eboliang-04.jpg",
+      "size": 39033420,
+      "sha256": "7fee0d24f4368fd38dc17037b7a94f72d78914230d87e9b50b5e24271e762477"
+    },
+    {
+      "id": "eboliang-05",
+      "name": "eboliang-05.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/eboliang-05.jpg",
+      "size": 42167151,
+      "sha256": "305c6482d188b9cdb95cb2d78033a94d1943419ff47218a557503d2fd06494ff"
+    },
+    {
+      "id": "water-yadan-01",
+      "name": "water-yadan-01.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/water-yadan-01.jpg",
+      "size": 41519041,
+      "sha256": "462dee3046667dd0598a1fd932ec7fc18b9336c70f527459c3a7f9b5081f91a9"
+    },
+    {
+      "id": "eboliang-06",
+      "name": "eboliang-06.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/eboliang-06.jpg",
+      "size": 45223103,
+      "sha256": "b9a538302da1f47bc9926729084e6f7122c8566baa0e6783f7d62a492c426fde"
+    },
+    {
+      "id": "water-yadan-03",
+      "name": "water-yadan-03.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/water-yadan-03.jpg",
+      "size": 45070897,
+      "sha256": "00bb0a996429f150c99dbfcb21ffd3f3dd1beb3e38c8d4ec16cf7ca1d4de8e3d"
+    },
+    {
+      "id": "water-yadan-02",
+      "name": "water-yadan-02.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/water-yadan-02.jpg",
+      "size": 55904612,
+      "sha256": "ba0e08cd02f79515e934436f5b8ba33727a8ee86e9aeb272efa48ea1c601c37e"
+    },
+    {
+      "id": "qarhan-01",
+      "name": "qarhan-01.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/qarhan-01.jpg",
+      "size": 48198868,
+      "sha256": "e11f4b001ae7849037b4153e9f8ea3138c62beed4f224e3eb2d405d476a8970a"
+    },
+    {
+      "id": "qarhan-02",
+      "name": "qarhan-02.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/qarhan-02.jpg",
+      "size": 35903539,
+      "sha256": "006ff0cbe188c0f730117cdc34782e6c2b3c972a336ab56c4a346df3aa1cb8ae"
+    },
+    {
+      "id": "kunlun-mountains",
+      "name": "kunlun-mountains.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/kunlun-mountains.jpg",
+      "size": 33586416,
+      "sha256": "5d1cbfc304d877daf90dc1565b8498611c29a557a5e0808a18126012edfad9e5"
+    },
+    {
+      "id": "kunlun-pass",
+      "name": "kunlun-pass.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/kunlun-pass.jpg",
+      "size": 31830089,
+      "sha256": "cba1486e9eefc873d27338fa2e7182de68d9df46b410cc048ff22c5476a2dec3"
+    },
+    {
+      "id": "kunlun-hoh-xil",
+      "name": "kunlun-hoh-xil.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/kunlun-hoh-xil.jpg",
+      "size": 35084207,
+      "sha256": "bf22c9d51c72364302cc34ce2efe43f1c5c6abed6c2a821f4e844d41041aa7e5"
+    },
+    {
+      "id": "kunlun-jade",
+      "name": "kunlun-jade.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/kunlun-jade.jpg",
+      "size": 28118331,
+      "sha256": "ed710b3504db0ef89dd3c32b175fb328b68b87e2343550fd3ef5ed08ba9ae37a"
+    },
+    {
+      "id": "kunlun-mineral",
+      "name": "kunlun-mineral.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/kunlun-mineral.jpg",
+      "size": 32823561,
+      "sha256": "110f8467376c362ab202e4fb4a42c74c4af0a4dac0df5e116159cd60194427c4"
+    },
+    {
+      "id": "heidushan-north",
+      "name": "heidushan-north.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/heidushan-north.jpg",
+      "size": 34497152,
+      "sha256": "57d1b86edb48f703af781fe759c6e7d4554b0c07380b3934bebcc4ce8262a2a7"
+    },
+    {
+      "id": "heidushan-east",
+      "name": "heidushan-east.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/heidushan-east.jpg",
+      "size": 32571354,
+      "sha256": "6df770d9ce0048d253c5afd3b3aa93df255509e4a4d5e9ccf3add141bd1f550e"
+    },
+    {
+      "id": "lenghu-01",
+      "name": "lenghu-01.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/lenghu-01.jpg",
+      "size": 28106703,
+      "sha256": "fb5ee93ed023b84601b29bc39da0dded31e9c93700b67c5ee14039861b9ac6f9"
+    },
+    {
+      "id": "heidushan-south",
+      "name": "heidushan-south.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/heidushan-south.jpg",
+      "size": 48245590,
+      "sha256": "09344d759e8930f0ab49902bea4cfcdf0ca2570d14cef731712c59ad8abced14"
+    },
+    {
+      "id": "lenghu-02",
+      "name": "lenghu-02.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/lenghu-02.jpg",
+      "size": 19832100,
+      "sha256": "4333b53e84043eab46db98eec7d2d6bbfa06185c1c5fcaf9209842e74fed3fd0"
+    },
+    {
+      "id": "energy-02",
+      "name": "energy-02.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/energy-02.jpg",
+      "size": 33142956,
+      "sha256": "0fa58368592cc8e1e3b5d10e0b32d036f39b4f169582834d3151f3b9db5144d4"
+    },
+    {
+      "id": "energy-01",
+      "name": "energy-01.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/energy-01.jpg",
+      "size": 39195365,
+      "sha256": "48c2668debc65b925cd0e7e9e5e2dd9daf3d1a198f60c69a0f28e82533676280"
+    },
+    {
+      "id": "hexicorridor-dangjin",
+      "name": "hexicorridor-dangjin.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/hexicorridor-dangjin.jpg",
+      "size": 31798279,
+      "sha256": "0124d8fdd94a18049e8f40125f5327277f21d07e0a19933fbfc1c7c526d2d756"
+    },
+    {
+      "id": "hexicorridor-guazhou",
+      "name": "hexicorridor-guazhou.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/hexicorridor-guazhou.jpg",
+      "size": 33571638,
+      "sha256": "7514eb9cad5bdf695418176acffa002b53d8a4d2a45a8cc538683f700e4a759c"
+    },
+    {
+      "id": "hexicorridor-dunhuang",
+      "name": "hexicorridor-dunhuang.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/hexicorridor-dunhuang.jpg",
+      "size": 42048670,
+      "sha256": "c6b33bdb570712236d7db689ee1f2b41916e3f2625f2efac8aedcf0cfa646cc5"
+    },
+    {
+      "id": "hexicorridor-pingshan-02",
+      "name": "hexicorridor-pingshan-02.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/hexicorridor-pingshan-02.jpg",
+      "size": 17009151,
+      "sha256": "152ee0f3106c5ad6daa805a7afa3c7859f548e5af21581d8b60cfeeeb2e8b358"
+    },
+    {
+      "id": "hexicorridor-pingshan-01",
+      "name": "hexicorridor-pingshan-01.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/hexicorridor-pingshan-01.jpg",
+      "size": 43635742,
+      "sha256": "021e61a0809730346e60ca2f66118e831718785f3007cfd469fb4de012149c5d"
+    },
+    {
+      "id": "tuotuohe-01",
+      "name": "tuotuohe-01.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/tuotuohe-01.jpg",
+      "size": 5473872,
+      "sha256": "61863a2fc3b1946f8cb1cfea70e54d86c2194b76d0156215eb04833f9f22d80c"
+    },
+    {
+      "id": "tuotuohe-02",
+      "name": "tuotuohe-02.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/tuotuohe-02.jpg",
+      "size": 8305214,
+      "sha256": "93df855d3fcad83c04c766db26872339b797e4b5b417ef8f784c1e5a0724b8db"
+    },
+    {
+      "id": "hexicorridor-biandukou",
+      "name": "hexicorridor-biandukou.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/hexicorridor-biandukou.jpg",
+      "size": 40216515,
+      "sha256": "5ccd9a611f1b3abee7170b4fd010a5eef16c5a888aec16fb60ce2b5760fab653"
+    },
+    {
+      "id": "tuotuohe-03",
+      "name": "tuotuohe-03.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/tuotuohe-03.jpg",
+      "size": 13722242,
+      "sha256": "027f77f0d5a1aa904d3ead060665968ffa4081c3dc27dc6b407c2fb2a19dde0f"
+    },
+    {
+      "id": "tuotuohe-04",
+      "name": "tuotuohe-04.jpg",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/tuotuohe-04.jpg",
+      "size": 11057526,
+      "sha256": "766ebff84b7e59a81b4ff8fc080345190a32e2625929909fa3c0eb44d1c74099"
+    },
+    {
+      "id": "project-video-original",
+      "name": "project-video-original.mp4",
+      "url": "https://github.com/yichen-kong/yichen-kong.github.io/releases/download/media-originals-20261007/project-video-original.mp4",
+      "size": 357937573,
+      "sha256": "f7b6ff4921ec49c690be4b6b7c1ad661d0e6609778f19af03346bcef72e0c765"
+    }
+  ]
+}

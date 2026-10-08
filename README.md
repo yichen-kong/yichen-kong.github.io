@@ -1,57 +1,103 @@
-﻿# Yichen Kong personal research site
+# Yichen Kong Personal Research Site
 
-静态 GitHub Pages 个人主页，采用黑 / 白 / 蓝三色和全屏叙事区块，页面结构参考 SpaceX 的“全屏视觉 + 极少文字 + 继续下滚”的信息节奏，但不复制其品牌、文案或素材。
+这是一个静态 GitHub Pages 个人主页，使用黑 / 白 / 蓝三色和全屏叙事区块。主页按照“个人身份 → 项目 → 成果 → 地理与试验 → 联系 → 讨论”的顺序组织；详情页再展开技术、图片和文件。
 
-## 页面结构
+## 本地开发
 
-```text
-index.html                         主页：个人简介、两个项目、荣誉、青海、联系、留言
-project-recoverable-sounding.html 自主控制可回收探空系统详情
-project-sounding-calculator.html  高空探空业务模拟计算网页详情
-awards.html                        成果与荣誉
-qinghai.html                       青海地图、地球晨昏线、青海画册
-tuotuohe.html                      沱沱河试验地点与现场照片
-documents.html                     中英文简历、研究报告、试飞计划
-research.html                      项目总览
-assets/media/                      用户提供的项目、荣誉、沱沱河照片和青海画册资源
-assets/geo/earth-land.geojson      Natural Earth 陆地边界数据，用于旋转地球
-```
-
-## 图片策略
-
-`D:\githubio\青海` 和 `D:\githubio\沱沱河` 中的原始照片保持不动。由于 GitHub 单文件和 Pages 加载限制，网页使用 `assets/media/qinghai/` 中的高质量网页版本和缩略图：
-
-- 缩略图用于画册首屏和懒加载
-- `view/` 用于点击后的大图
-- 西宁全景单独生成 `assets/media/qinghai/panorama.jpg`
-- 原始照片仍保留在本机源文件夹中，没有被覆盖或删除
-
-## 留言与讨论说明
-
-GitHub Pages 只能托管静态文件，无法安全保存公开的匿名留言，也不能把数据库密钥放进前端。当前“留言与讨论”表单支持匿名或署名填写，并生成发给站长的邮件；如果要做真正的公开讨论区，需要下一步配置 Giscus（GitHub Discussions）或 Supabase 等第三方后端。
-
-## 本地预览
+需要 Node.js 22 或更高版本：
 
 ```powershell
-cd D:\githubio\yichen-kong.github.io
-node -e "const http=require('http'),fs=require('fs'),path=require('path');const root=process.cwd();http.createServer((q,r)=>{let u=decodeURIComponent(q.url.split('?')[0]);if(u==='/')u='/index.html';let f=path.join(root,u);if(!f.startsWith(root)||!fs.existsSync(f)){r.statusCode=404;return r.end('404')}r.setHeader('Content-Type','text/html;charset=utf-8');fs.createReadStream(f).pipe(r)}).listen(8000)"
+npm run build
+npm run dev
 ```
 
-打开 `http://127.0.0.1:8000/`。
+打开 `http://127.0.0.1:8090/`。
+
+测试：
+
+```powershell
+npm test
+```
+
+当前地球、晨昏线、地形、照片元数据和讨论镜像测试全部通过。
+
+## 目录
+
+```text
+content/site.mjs                 可维护的中英文站点内容与项目数据
+content/gallery.json              摄影图册公共元数据
+content/discussions.json          GitHub Discussions 静态镜像
+scripts/build.mjs                 生成 23 个静态页面和 public/
+scripts/prepare-media.py          原图不变，生成缩略图、WebP 和全景 DZI
+scripts/prepare-covers.py         生成首屏、LOGO、项目和视频预览
+scripts/sync-discussions.mjs      用 GITHUB_TOKEN 同步公开讨论
+js/site.js                        导航、语言、动效、弹窗、地球和懒加载
+js/earth.js                       Three.js 地球、晨昏线、真实高程地形
+js/gallery.js                     照片放大和 Xining Deep Zoom 全景
+css/site.css                      新版视觉系统和响应式布局
+assets/covers/                    首屏和轻量预览
+assets/gallery/                   图册 WebP 预览和全景分块
+assets/earth/                     NASA Blue Marble、SRTM 高程和来源说明
+assets/vendor/                    自托管 Three.js、PhotoSwipe、OpenSeadragon
+```
+
+## 页面
+
+- `index.html`：个人主页、个人简介、两个项目、荣誉、青海、联系、留言
+- `identity.html`：LOGO 与名称说明，来自 `我的LOGO.docx`
+- `resume.html`：中英文简历页内预览和原始 PDF 下载
+- `project-recoverable-sounding.html`：自主控制可回收探空系统，包含试验记录
+- `project-sounding-calculator.html`：高空探空业务模拟计算网页
+- `awards.html`：成果、荣誉和证书照片
+- `qinghai.html`：地球定位、每日晨昏线、真实高程地形、青海画册
+- `tuotuohe.html`：沱沱河试验地点和现场照片
+- `discussion.html`：公开 GitHub Discussions 镜像
+
+## 原图与发布策略
+
+原始照片保留在本机源文件夹：
+
+```text
+D:\githubio\青海
+D:\githubio\沱沱河
+```
+
+原始照片和原始视频没有被覆盖。由于 GitHub 单文件限制和移动端加载问题，网页默认使用轻量预览；未经重编码的原图和原视频已经放在 GitHub Release：
+
+```text
+media-originals-20261007
+```
+
+原图链接只在“查看原图”时打开，不会在首页自动下载。原始文件清单和 SHA-256 在本机私有文件中保存，不部署：
+
+```text
+D:\githubio\yichen-kong.github.io\docs\media-manifest.json
+```
+
+## 讨论功能
+
+GitHub Discussions 已启用，主页讨论页展示同步快照并链接到真实讨论：
+
+- 阅读：无需 GitHub 登录
+- 发帖和回复：需要 GitHub 账号
+- 不支持匿名公开发帖
+- 同步任务每 6 小时运行一次，更新 `content/discussions.json`
+
+这是 GitHub Pages 上不暴露数据库密钥的免费方案。若以后需要真正匿名发帖，需要另行配置 Supabase、Cloudflare Worker 等后端，并增加验证码、限流和审核。
 
 ## 部署
 
+推送 `main` 后，GitHub Actions 会先运行：
+
 ```powershell
-git add .
-git commit -m "update personal site"
-git push origin main
+node scripts/build.mjs
 ```
 
-`.github/workflows/deploy.yml` 会自动部署 HTML、CSS、JavaScript、图片、视频和 PDF。
+再将 `public/` 部署到 GitHub Pages。讨论同步工作流会单独更新公开讨论镜像。
 
-## 数据和素材说明
+## 来源说明
 
-- `assets/geo/earth-land.geojson` 使用 Natural Earth 的公开陆地边界数据，页面仅用于绘制地球背景和青海位置标记。
-- 青海和沱沱河照片来自 `D:\githubio\青海`、`D:\githubio\沱沱河`，网页保留拍摄备注并生成了缩略图与高质量查看版本。
-- 由于 GitHub 单文件大小限制和移动端性能，未把超过 100 MB 的原始全景文件直接提交到仓库；原始文件仍保留在本机源文件夹中。
-- “留言与讨论”目前通过邮件草稿实现。要做公开、可持久化、支持匿名访问的讨论区，需要启用 GitHub Discussions 后接入 Giscus，或配置 Supabase 等后端服务。
+- 地球：NASA Blue Marble，具体来源和许可说明见 `assets/earth/README.md`
+- 地形：NASA/USGS SRTM v3，经 Open Topo Data 采样，来源和限制见 `assets/earth/README.md`
+- 青海湖外部影像：NASA Earth Observatory / Allison Nussbaum / USGS Landsat，见 `sources.html`
+- 沱沱河站排名使用青海省气象局公开材料，页面使用“全国第二高的探空站”，不写未经证实的“世界第二高”

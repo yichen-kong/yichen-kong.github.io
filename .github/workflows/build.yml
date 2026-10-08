@@ -23,11 +23,14 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v6
-    - name: Assemble static site
+    - name: Setup Node.js
+      uses: actions/setup-node@v6
+      with:
+        node-version: '22'
+    - name: Generate static pages
       run: |
-        mkdir -p public
-        cp -r *.html css js assets public/
-        echo "Static site assembled:"
+        node scripts/build.mjs
+        echo "Static site generated:"
         find public -maxdepth 2 -type f | sort
     - name: Upload artifact
       id: upload
