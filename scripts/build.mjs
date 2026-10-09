@@ -7,7 +7,7 @@ const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8').replace(/^\uF
 const media=read('content/gallery.json');
 const out=path.join(root,'public');
 fs.mkdirSync(out,{recursive:true});
-const VERSION='20261008-r3';
+const VERSION='20261009-r4';
 const escape=v=>String(v).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 const l=(zh,en)=>({zh,en});
 const t=(zh,en)=>{const v=typeof zh==='object'?zh:l(zh,en);return `<span class="lang-zh">${escape(v.zh)}</span><span class="lang-en" lang="en">${escape(v.en)}</span>`};
@@ -68,11 +68,13 @@ function dialogs() {
 function footer(){return `<footer class="site-footer"><a href="index.html">© 2026 ${t(site.name)}</a><div><a href="resume.html">${t('简历','CV')}</a><a href="documents.html">${t('研究资料','Documents')}</a><a href="sources.html">${t('图源与说明','Sources & notes')}</a></div></footer>`}
 const pages=[];
 function page(file,title,body,{home=false,desc,extraHead=''}={}) {
+ const zhTitle=`${title.zh} | Yichen Kong`;
+ const enTitle=title.en==='Yichen Kong'?'Yichen Kong':`${title.en} | Yichen Kong`;
  const html=`<!doctype html>
 <html lang="zh-CN" data-lang="zh"${home?' class="home-page"':''}>
 <head>
  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
- <title>${escape(title.zh)} | Yichen Kong</title>
+ <title>${escape(zhTitle)}</title>
  <meta name="description" content="${escape(desc?.zh||title.zh)}">
  <meta name="theme-color" content="#030507"><meta name="color-scheme" content="dark">
  <meta property="og:title" content="${escape(title.zh)} | Yichen Kong"><meta property="og:image" content="https://yichen-kong.github.io/assets/covers/logo.webp"><meta property="og:type" content="website">
@@ -81,7 +83,7 @@ function page(file,title,body,{home=false,desc,extraHead=''}={}) {
  <link rel="stylesheet" href="css/site.css?v=${VERSION}">${extraHead}
  <script>try{var l=new URLSearchParams(location.search).get('lang')||localStorage.getItem('yk-lang');if(l==='en'){document.documentElement.dataset.lang='en';document.documentElement.lang='en';}else{document.documentElement.dataset.lang='zh';document.documentElement.lang='zh-CN';}}catch(e){}</script>
 </head>
-<body data-page="${file}" data-title-zh="${escape(title.zh)} | Yichen Kong" data-title-en="${escape(title.en)} | Yichen Kong">
+<body data-page="${file}" data-title-zh="${escape(zhTitle)}" data-title-en="${escape(enTitle)}">
 ${navigation()}<main id="main">${body}</main>${footer()}${dialogs()}
 <script type="module" src="js/site.js?v=${VERSION}"></script>
 </body></html>\n`;
@@ -156,7 +158,7 @@ honors+=section('results',l('其他成果','Other results'),`<div class="technic
 honors+=section('photos',l('证书与照片','Certificates & photographs'),`<div class="award-gallery">${[1,2,3,4].map(i=>{const dims=[[1500,2000],[4096,3072],[4096,3072],[4096,3072]][i-1];return simpleImage(`assets/img/award-${i}.jpg`,l(`获奖照片 ${i}`,`Award photograph ${i}`),...dims)}).join('')}</div>`);
 page('awards.html',l('成果与荣誉','Achievements & honors'),honors);
 
-const globeBlock=`<div class="geo-layout"><div class="geo-frame" data-earth><p class="geo-loading">${t('地球视图正在加载…','Loading Earth view…')}</p></div><div class="geo-copy">${heading(l('青海在地球上的位置','Qinghai on Earth'),'h2')}${para(l('位于青藏高原东北部。地球图标记青海及西宁；太阳光照和晨昏线按当前 UTC 时间计算。','On the northeastern Tibetan Plateau. The globe marks Qinghai and Xining; sunlight and the terminator follow current UTC time.'))}<p class="geo-date" data-utc-time></p>${note(l('可拖动旋转，也可暂停。数据说明见视图下方。','Drag to rotate or pause the animation. Data notes are provided below the view.'))}</div></div>`;
+const globeBlock=`<div class="geo-layout"><div class="geo-frame" data-earth><p class="geo-loading">${t('进入视区后加载地球…','Earth loads when it enters view…')}</p></div><div class="geo-copy">${heading(l('青海在地球上的位置','Qinghai on Earth'),'h2')}${para(l('位于青藏高原东北部。地球图标记青海省内的示意点，不是行政边界。太阳光照和晨昏线按当前 UTC 时间计算。','On the northeastern Tibetan Plateau. A representative point marks Qinghai, not its administrative boundary. Sunlight and the terminator follow current UTC time.'))}<p class="geo-date" data-utc-time></p>${note(l('可拖动旋转，也可暂停。西宁日出、日落在地球下方按北京时间显示。','Drag to rotate or pause. Xining’s estimated sunrise and sunset are shown below the globe in Beijing time.'))}</div></div>`;
 let qinghai=scene('top',l('青海省','Qinghai'),para(l('中国 · 青海省','Qinghai · China'),'eyebrow')+heading(l('青海省','Qinghai'),'h1')+para(l('省会西宁，位于青藏高原东北部。','Capital: Xining. Northeastern Tibetan Plateau.'),'lead')+actions(button(l('地理介绍','Geography'),'#geography')+button(l('摄影图册','Photo albums'),'#albums')),scenePhoto(itemsById['kunlun-hoh-xil'],true),'qinghai-scene detail-hero');
 qinghai+=section('geography',l('地理概览','Geographic overview'),`<div class="facts-grid"><article>${heading(l('位置与地形','Location & terrain'),'h3')}${para(l('青海位于中国西部。昆仑山、祁连山、柴达木盆地和高原腹地构成多样的地形；不同区域的海拔和气候差异很大。','Qinghai is in western China. The Kunlun and Qilian mountains, Qaidam Basin and plateau interior form varied terrain; elevation and climate differ substantially by area.'))}</article><article>${heading(l('河流与湖泊','Rivers & lakes'),'h3')}${para(l('长江、黄河与澜沧江的源区位于青海。青海湖位于省内东北部；柴达木盆地有察尔汗等盐湖。','Qinghai contains headwaters of the Yangtze, Yellow and Lancang rivers. Qinghai Lake is in the northeast of the province; the Qaidam Basin contains salt lakes including Qarhan.'))}</article><article>${heading(l('城市与交通','Cities & transport'),'h3')}${para(l('西宁是省会，格尔木是青藏交通的重要节点。青藏铁路和 G109 国道经过昆仑山口、沱沱河一带通往西藏。','Xining is the provincial capital and Golmud a transport hub. The Qinghai–Tibet railway and G109 pass through the Kunlun Pass and Tuotuohe region toward Tibet.'))}</article></div>`);
 qinghai+=section('qinghai-lake',l('青海湖','Qinghai Lake'),`<div class="source-feature"><figure>${img('assets/external/qinghai-lake-nasa.jpg',l('青海湖卫星影像','Satellite view of Qinghai Lake'),'width="1469" height="979" loading="lazy"')}<figcaption>${t('图源：NASA Earth Observatory / Allison Nussbaum，使用 USGS Landsat 数据。','Source: NASA Earth Observatory / Allison Nussbaum, using USGS Landsat data.')} <a href="https://science.nasa.gov/earth/earth-observatory/shifting-sand-spits-151316/" target="_blank" rel="noopener">${t('原文 ↗','Source ↗')}</a></figcaption></figure><div class="prose">${heading(l('青海湖','Qinghai Lake'),'h2')}${para(l('中国最大的内陆咸水湖，位于青海省东北部。它是高原水文、候鸟迁徙和区域生态变化的重要地理对象。','China’s largest inland saltwater lake, in northeastern Qinghai. It is a major geographic feature for plateau hydrology, migratory birds and regional ecological change.'))}</div></div>`);

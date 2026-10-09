@@ -35,7 +35,7 @@ Version 3 (SRTM 90 m) queried through the public Open Topo Data API:
 - product DOI: <https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL3.003>
 - query endpoint: `https://api.opentopodata.org/v1/srtm90m`
 
-It covers 94–100°E, 34–38°N with 97 × 65 samples at 0.0625° spacing. The
+It covers 89.3–103.1°E, 31.5–39.3°N with 97 × 65 samples. This is a broad Qinghai bounding rectangle and includes neighboring regions. The
 website renders the grid as a separate local-coordinate 3D surface and applies
 12× vertical display exaggeration. Elevations remain metres above the stated
 EGM96 datum; this is not survey-grade and is not a province boundary dataset.
@@ -145,4 +145,5 @@ Run dependency-free tests with Node 22.7+ (ES module syntax detection):
 ```sh
 node --test tests/earth.test.mjs
 ```
+
 

@@ -187,6 +187,23 @@ figcaption{font-size:13px;color:var(--dim);line-height:1.8;margin-top:12px}
 .terrain-frame{min-height:520px;position:relative;width:100%;min-width:0}
 .geo-loading{display:flex;justify-content:center;padding:120px 20px;color:var(--dim)}
 .geo-date{font-size:12px;color:var(--blue)!important}
+.earth-viewport{overflow:hidden;background:#050b13}
+.earth-renderer{display:block;cursor:grab;touch-action:pan-y}
+.earth-renderer:active{cursor:grabbing}
+.earth-controls{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.earth-controls button{font-size:12px;min-height:40px;padding:8px 12px;border:1px solid var(--line);color:var(--muted);line-height:1.4}
+.earth-controls button:hover{color:var(--blue);border-color:#69caff80}
+.earth-controls button:disabled{opacity:.4;cursor:default}
+.earth-controls [data-earth-action=home],.earth-controls [data-earth-action=reset]{color:var(--blue)}
+.earth-daily{font-size:13px;color:var(--muted);line-height:1.8;margin:18px 0 8px}
+.earth-utc,.earth-legend{font-size:11px;color:var(--dim);overflow-wrap:anywhere;margin:6px 0 12px}
+.earth-caption{font-size:12px;color:var(--dim);line-height:1.9;margin-top:14px}
+.earth-caption summary{cursor:pointer;color:var(--blue);padding:8px 0;min-height:36px}
+.earth-caption p{margin:12px 0}
+.earth-caption a{color:var(--blue)}
+.earth-status{font-size:14px;color:var(--muted);padding:24px;line-height:1.9}
+.earth-view--terrain .earth-viewport{max-height:68svh}
+.earth-view--terrain .earth-controls{margin-top:18px}
 
 /* Place-based albums: one cover per place, responsive, no filmstrip overflow. */
 .album-index{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 28px;margin:40px 0 70px}
@@ -235,6 +252,14 @@ dialog::backdrop{background:#000c;backdrop-filter:blur(6px)}
 .discussion-container a{color:var(--blue)}
 .discussion-container article{border-bottom:1px solid var(--line);padding:24px 0}
 .discussion-container p{overflow-wrap:anywhere;white-space:pre-wrap;color:var(--muted)}
+.discussion-container h3{font-size:26px;margin-bottom:20px}
+.discussion-sync-time{font-size:12px;color:var(--dim)!important}
+.discussion-status{padding:20px 0}
+.discussion-github-link{display:inline-block;font-size:14px;margin:20px 0}
+.discussion-notes{font-size:13px;line-height:1.8;max-width:840px;margin-top:24px;color:var(--muted)}
+.discussion-notes summary{cursor:pointer;color:var(--dim);padding:8px 0}
+.discussion-notes h4{margin-bottom:12px}
+.discussion-notes>div{margin-top:24px}
 .site-footer{padding:34px var(--gutter);display:flex;justify-content:space-between;gap:22px;color:var(--dim);font-size:12px;border-top:1px solid #ffffff12;scroll-snap-align:end}
 .site-footer>div{display:flex;flex-wrap:wrap;gap:22px}
 .site-footer a:hover{color:var(--blue)}
