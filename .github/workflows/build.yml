@@ -3,6 +3,11 @@ on:
   pull_request:
     branches: ['main']
   workflow_call:
+    inputs:
+      sync-discussions:
+        required: false
+        type: boolean
+        default: false
     outputs:
       artifact-id:
         description: 'The ID of the uploaded artifact'
@@ -29,7 +34,7 @@ jobs:
       with:
         node-version: '22'
     - name: Refresh public discussion snapshot
-      if: github.event_name != 'pull_request'
+      if: inputs.sync-discussions == true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: node scripts/sync-discussions.mjs

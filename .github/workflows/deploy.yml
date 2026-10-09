@@ -28,6 +28,8 @@ jobs:
   # Build static site using reusable workflow
   build:
     uses: ./.github/workflows/build.yml
+    with:
+      sync-discussions: true
     secrets: inherit
 
   # Deploy website to GitHub Pages hosting
