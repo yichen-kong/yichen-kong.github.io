@@ -6,10 +6,17 @@ on:
     branches: ['main']
   # Allows you to run this workflow manually from the Actions tab on GitHub
   workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+  discussion:
+    types: [created, edited, deleted]
+  discussion_comment:
+    types: [created, edited, deleted]
 
 # Provide permission to clone the repo and deploy it to GitHub Pages
 permissions:
-  contents: read
+  contents: write
+  discussions: read
   pages: write
   id-token: write
 

@@ -22,6 +22,8 @@ function syncLanguage(){
 document.querySelector('[data-language-toggle]')?.addEventListener('click',()=>{
   root.dataset.lang=language()==='zh'?'en':'zh';
   try{localStorage.setItem('yk-lang',language())}catch{}
+  const url=new URL(location.href);
+  if(url.searchParams.has('lang')){url.searchParams.set('lang',language());history.replaceState(null,'',url)}
   syncLanguage();
 });
 syncLanguage();
@@ -35,12 +37,16 @@ function setMenu(open,restore=false){
   header?.classList.toggle('menu-open',open);
   header?.classList.remove('is-hidden');
   toggle?.setAttribute('aria-expanded',String(open));
+  toggle?.setAttribute('aria-label',open?say('关闭导航菜单','Close navigation menu'):say('打开导航菜单','Open navigation menu'));
   document.body.classList.toggle('overlay-open',open||!!document.querySelector('dialog[open]'));
   if(main)main.inert=open;
   if(footer)footer.inert=open;
   if(!open)closeSubmenus();
   if(restore)toggle?.focus({preventScroll:true});
 }
+document.addEventListener('languagechange',()=>{
+  toggle?.setAttribute('aria-label',header?.classList.contains('menu-open')?say('关闭导航菜单','Close navigation menu'):say('打开导航菜单','Open navigation menu'));
+});
 toggle?.addEventListener('click',()=>setMenu(!header.classList.contains('menu-open')));
 mobile.addEventListener('change',()=>setMenu(false));
 document.querySelectorAll('[data-nav-group]').forEach(group=>{

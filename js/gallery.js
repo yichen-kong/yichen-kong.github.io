@@ -1,16 +1,22 @@
 let galleryData;
+let cssPromise;
+let activeGallery;
 const lang=()=>document.documentElement.dataset.lang==='en'?'en':'zh';
 function loadCSS(){
-  if(document.querySelector('link[data-photoswipe]'))return;
-  const link=document.createElement('link');link.rel='stylesheet';link.href='assets/vendor/gallery/photoswipe.css';link.dataset.photoswipe='';document.head.append(link);
+  cssPromise??=new Promise((resolve,reject)=>{
+    const link=document.createElement('link');link.rel='stylesheet';link.href='assets/vendor/gallery/photoswipe.css';link.dataset.photoswipe='';
+    link.onload=resolve;link.onerror=()=>{link.remove();cssPromise=null;reject(Error('Gallery stylesheet unavailable'))};
+    document.head.append(link);
+  });
+  return cssPromise;
 }
 async function data(){
   galleryData??=fetch('assets/data/gallery.json').then(r=>{if(!r.ok)throw Error('Gallery metadata');return r.json()});
   return galleryData;
 }
 export async function openGallery(clicked){
-  loadCSS();
-  const [{default:PhotoSwipe},manifest]=await Promise.all([import('../assets/vendor/gallery/photoswipe.esm.min.js'),data()]);
+  if(activeGallery)return;
+  const [{default:PhotoSwipe},manifest]=await Promise.all([import('../assets/vendor/gallery/photoswipe.esm.min.js'),data(),loadCSS()]);
   const links=[...document.querySelectorAll('[data-gallery-image]')];
   const dataSource=links.map(link=>{
     const img=link.querySelector('img');
@@ -26,6 +32,7 @@ export async function openGallery(clicked){
   let original,caption;
   function refresh(){
     const current=dataSource[pswp.currIndex];
+    if(!current)return;
     if(original){
       original.hidden=!current.item;
       if(current.item){original.href=current.item.original.url;original.textContent=(zh?'查看原图':'View original')+' · '+(current.item.original.bytes/1048576).toFixed(1)+' MB ↗'}
@@ -37,7 +44,8 @@ export async function openGallery(clicked){
     pswp.ui.registerElement({name:'caption',order:9,isButton:false,appendTo:'root',onInit:el=>{caption=el;el.className='pswp-caption';refresh()}});
   });
   pswp.on('change',refresh);
-  pswp.on('destroy',()=>clicked.focus({preventScroll:true}));
+  activeGallery=pswp;
+  pswp.on('destroy',()=>{activeGallery=null;clicked.focus({preventScroll:true})});
   pswp.init();
 }
 let viewer,osdPromise;
@@ -50,7 +58,12 @@ function loadOSD(){
 }
 export async function openPanorama(){
   await loadOSD();
-  if(viewer){viewer.viewport.goHome(true);return}
+  if(viewer){
+    viewer.setVisible(true);
+    viewer.forceResize();
+    viewer.viewport.goHome(true);
+    return;
+  }
   viewer=window.OpenSeadragon({
     id:'panorama-viewer',tileSources:'assets/gallery/deepzoom/xining-panorama.dzi',
     showNavigationControl:false,showNavigator:true,navigatorPosition:'BOTTOM_RIGHT',

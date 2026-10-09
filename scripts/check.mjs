@@ -1,0 +1,4 @@
+import fs from 'node:fs'; import path from 'node:path'; import { fileURLToPath } from 'node:url';
+const root=path.resolve(process.argv[2] || path.join(path.dirname(fileURLToPath(import.meta.url)),'..')); const errors=[];
+for(const file of fs.readdirSync(root).filter(x=>x.endsWith('.html'))){const s=fs.readFileSync(path.join(root,file),'utf8');if(/[\uFFFD]/.test(s))errors.push(`${file}: replacement character`);for(const m of s.matchAll(/(?:href|src)="([^"]+)"/g)){const u=m[1].split(/[?#]/)[0];if(!u||/^(https?:|mailto:|tel:|weixin:|#|data:)/.test(u))continue;if(!fs.existsSync(path.join(root,u)))errors.push(`${file}: missing ${u}`)}}
+if(errors.length){console.error(errors.join('\n'));process.exit(1)}console.log(`Static checks passed for ${fs.readdirSync(root).filter(x=>x.endsWith('.html')).length} pages.`);
