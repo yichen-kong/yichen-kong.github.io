@@ -201,7 +201,8 @@ test('terrain samples preserve geographic direction and measured heights', () =>
 
 test('self-hosted DEM has complete real samples, explicit provenance and a stable checksum', async () => {
   const raw = await readFile(new URL('../assets/earth/qinghai-dem.json', import.meta.url));
-  const grid = validateElevationGrid(JSON.parse(raw));
+  const normalized = raw.toString().replace(/\r\n/g, '\n');
+  const grid = validateElevationGrid(JSON.parse(normalized));
   assert.equal(grid.columns, 97);
   assert.equal(grid.rows, 65);
   assert.equal(grid.elevations.length, 6305);
@@ -210,8 +211,8 @@ test('self-hosted DEM has complete real samples, explicit provenance and a stabl
   assert.equal(grid.verticalDatum, 'EGM96 orthometric height');
   assert.equal(Math.min(...grid.elevations), 910);
   assert.equal(Math.max(...grid.elevations), 6241);
-  assert.equal(createHash('sha256').update(raw).digest('hex'),
-    'f7040bd0eef44d3649f4abb79608b2a80da0286b745d66949836de8eca9d3711');
+  assert.equal(createHash('sha256').update(normalized).digest('hex'),
+    '35a1781d83118cc081dc2c6ef6f917e1f1aa31549d6b205f063f2cc05fc93a46');
   const center = terrainVertex(grid, 32, 48, 1, 0);
   close(center.x, 0, 1e-9, 'grid centre x');
   close(center.z, 0, 1e-9, 'grid centre z');
